@@ -1,0 +1,2 @@
+sensor_msgs/PointCloud2 point
+builtin_interfaces/Time stamp
