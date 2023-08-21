@@ -37,7 +37,7 @@ def generate_launch_description():
         "output_points_raw", default_value="/filtered"
     )
 
-    tf_output_frame_param = DeclareLaunchArgument("tf_output_frame", default_value="/os1_lidar")
+    tf_output_frame_param = DeclareLaunchArgument("tf_output_frame", default_value="lidar_top")
 
     # set concat filter as a component
     concat_component = ComposableNode(
