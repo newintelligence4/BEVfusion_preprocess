@@ -50,7 +50,7 @@ void SampleVelocity::topic_callback(const sensor_msgs::msg::PointCloud2::SharedP
   c_auto_vehicle_msgs::msg::VelocityReport message;
   message.header.frame_id = msg->header.frame_id;
   message.header.stamp = msg->header.stamp;
-  RCLCPP_INFO(this->get_logger(), " %f", msg->header.stamp);
+  //RCLCPP_INFO(this->get_logger(), " %f", msg->header.stamp);
   message.longitudinal_velocity = count;    
   message.lateral_velocity = count;  
   message.heading_rate = count;   

@@ -37,7 +37,7 @@ def generate_launch_description():
         "output_points_raw", default_value="/filtered"
     )
 
-    tf_output_frame_param = DeclareLaunchArgument("tf_output_frame", default_value="lidar_top")
+    tf_output_frame_param = DeclareLaunchArgument("tf_output_frame", default_value="lidar_link")
 
     # set concat filter as a component
     concat_component = ComposableNode(
@@ -49,7 +49,9 @@ def generate_launch_description():
             {
                 "input_topics": LaunchConfiguration("input_points_raw_list"),
                 "output_frame": LaunchConfiguration("tf_output_frame"),
-                "approximate_sync": True,
+                "timeout_sec" : 0.1,
+                "maximum_queue_size_" : 5,
+                "approximate_sync": False,
             }
         ],
     )

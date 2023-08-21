@@ -259,7 +259,8 @@ void PointCloudConcatenateDataSynchronizerComponent::combineClouds(
   Eigen::AngleAxisf rotation_y(0, Eigen::Vector3f::UnitY());
   Eigen::AngleAxisf rotation_z(yaw, Eigen::Vector3f::UnitZ());
   Eigen::Translation3f translation(x, y, 0);
-  Eigen::Matrix4f rotation_matrix = (translation * rotation_z * rotation_y * rotation_x).matrix();
+  Eigen::Matrix4f rotation_matrix;
+  // Eigen::Matrix4f rotation_matrix = (translation * rotation_z * rotation_y * rotation_x).matrix();
 
   // TODO(YamatoAndo): if output_frame_ is not base_link, we must transform
 
@@ -283,7 +284,10 @@ void PointCloudConcatenateDataSynchronizerComponent::publish()
   not_subscribed_topic_names_.clear();
 
   for (const auto & e : cloud_stdmap_) {
+    //RCLCPP_INFO(this->get_logger(), "e.second %s , : %d", e.first, e.second->width);
     if (e.second != nullptr) {
+      RCLCPP_INFO(this->get_logger(), e.first);
+      RCLCPP_INFO(this->get_logger(), "IF : %d", e.second->width);
       sensor_msgs::msg::PointCloud2::SharedPtr transformed_cloud_ptr(
         new sensor_msgs::msg::PointCloud2());
       transformPointCloud(e.second, transformed_cloud_ptr);
@@ -295,12 +299,15 @@ void PointCloudConcatenateDataSynchronizerComponent::publish()
       }
 
     } else {
+      RCLCPP_INFO(this->get_logger(), e.first);
+      RCLCPP_INFO(this->get_logger(),  "NULLPTR");
       not_subscribed_topic_names_.insert(e.first);
     }
   }
-
+  // RCLCPP_INFO(this->get_logger(), "Loop");
   if (concat_cloud_ptr_) {
     concat_cloud_ptr_->is_dense = true;
+    concat_cloud_ptr_->header.stamp = this->get_clock()->now();
     auto output = std::make_unique<sensor_msgs::msg::PointCloud2>(*concat_cloud_ptr_);
     pub_output_->publish(std::move(output));
   } else {
@@ -348,6 +355,9 @@ void PointCloudConcatenateDataSynchronizerComponent::convertToXYZICloud(
       point.y = *it_y;
       point.z = *it_z;
       point.intensity = *it_i;
+      if (!isfinite(point.x) || !isfinite(point.y) || !isfinite(point.z) || !isfinite(point.intensity)) {
+        continue;
+      }
       output_modifier.push_back(std::move(point));
     }
   } else {
@@ -357,6 +367,9 @@ void PointCloudConcatenateDataSynchronizerComponent::convertToXYZICloud(
       point.y = *it_y;
       point.z = *it_z;
       point.intensity = 0.0f;
+      if (!isfinite(point.x) || !isfinite(point.y) || !isfinite(point.z) || !isfinite(point.intensity)) {
+        continue;
+      }
       output_modifier.push_back(std::move(point));
     }
   }
@@ -392,6 +405,7 @@ void PointCloudConcatenateDataSynchronizerComponent::cloud_callback(
     [](const auto & e) { return e.second != nullptr; });
 
   if (is_already_subscribed_this) {
+    //RCLCPP_INFO(this->get_logger(), "Already");
     cloud_stdmap_tmp_[topic_name] = xyzi_input_ptr;
     if (!is_already_subscribed_tmp) {
       auto period = std::chrono::duration_cast<std::chrono::nanoseconds>(
@@ -405,7 +419,7 @@ void PointCloudConcatenateDataSynchronizerComponent::cloud_callback(
     }
   } else {
     cloud_stdmap_[topic_name] = xyzi_input_ptr;
-
+    //RCLCPP_INFO(this->get_logger(), "Not Already");
     const bool is_subscribed_all = std::all_of(
       std::begin(cloud_stdmap_), std::end(cloud_stdmap_),
       [](const auto & e) { return e.second != nullptr; });
@@ -413,6 +427,7 @@ void PointCloudConcatenateDataSynchronizerComponent::cloud_callback(
     if (is_subscribed_all) {
       for (const auto & e : cloud_stdmap_tmp_) {
         if (e.second != nullptr) {
+          //RCLCPP_INFO(this->get_logger(), e.first);
           cloud_stdmap_[e.first] = e.second;
         }
       }
@@ -421,6 +436,7 @@ void PointCloudConcatenateDataSynchronizerComponent::cloud_callback(
       });
 
       timer_->cancel();
+      RCLCPP_INFO(this->get_logger(), "Loop");
       publish();
 
 
