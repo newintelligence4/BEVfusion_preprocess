@@ -26,11 +26,14 @@ It has 3 different directories for each function.
 : the simple package for publish the topics velocity
 
 ## Run
-Play the rosbags  
-
-> input : `/lidar_top`  
-> output: `/points_raw0`, `points_raw1`, `points_raw2`  
-
+Before the RUN  
+> Play the Rosbag
+> * Remap to `/lidar_top`
+>
+> Run the 3 TF  
+> * ```Shell ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 /lidar_link /***_lidar_link```  
+> * *** : `back`, `left`, `right`
+</br>
 Publish the Velocity
 
 ```Shell
@@ -41,12 +44,17 @@ Run the Lidar Node
 ```Shell
 ros2 launch three_lidar launch.py
 ```
+> input : `/lidar_top`  
+> output: `/points_raw0`, `points_raw1`, `points_raw2`
 
 Run the Concatenate Node
 ```Shell
 ros2 launch concat preprocessing.launch.py
 ```
 
+## Result
+<img src="./imgs/result.png" width="50%"/>  
+<img src="./imgs/concat.png" width="50%"/>  
 
 ## Tools
 - ROS2(foxy)
