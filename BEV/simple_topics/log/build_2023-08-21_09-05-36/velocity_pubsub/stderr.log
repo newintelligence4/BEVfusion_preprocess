@@ -1,0 +1,25 @@
+** WARNING ** io features related to openni will be disabled
+** WARNING ** io features related to openni2 will be disabled
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+** WARNING ** visualization features related to openni will be disabled
+** WARNING ** visualization features related to openni2 will be disabled
+** WARNING ** apps features related to openni will be disabled
+CMake Error at CMakeLists.txt:26 (find_package):
+  By not providing "Findvelocity_msg.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "velocity_msg", but CMake did not find one.
+
+  Could not find a package configuration file provided by "velocity_msg" with
+  any of the following names:
+
+    velocity_msgConfig.cmake
+    velocity_msg-config.cmake
+
+  Add the installation prefix of "velocity_msg" to CMAKE_PREFIX_PATH or set
+  "velocity_msg_DIR" to a directory containing one of the above files.  If
+  "velocity_msg" provides a separate development package or SDK, be sure it
+  has been installed.
+
+

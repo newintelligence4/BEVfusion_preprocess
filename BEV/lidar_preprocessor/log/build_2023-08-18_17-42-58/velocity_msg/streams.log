@@ -1,0 +1,216 @@
+[0.007s] Invoking command in '/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/build/velocity_msg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/src/velocity_msg -DCMAKE_INSTALL_PREFIX=/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg
+[0.040s] -- The C compiler identification is GNU 9.4.0
+[0.078s] -- The CXX compiler identification is GNU 9.4.0
+[0.081s] -- Check for working C compiler: /usr/bin/cc
+[0.138s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.139s] -- Detecting C compiler ABI info
+[0.229s] -- Detecting C compiler ABI info - done
+[0.238s] -- Detecting C compile features
+[0.238s] -- Detecting C compile features - done
+[0.239s] -- Check for working CXX compiler: /usr/bin/c++
+[0.296s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.297s] -- Detecting CXX compiler ABI info
+[0.340s] -- Detecting CXX compiler ABI info - done
+[0.346s] -- Detecting CXX compile features
+[0.346s] -- Detecting CXX compile features - done
+[0.347s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.361s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.361s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.451s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.465s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.468s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.517s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.535s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.573s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.617s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.633s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.719s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.833s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.885s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.898s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[0.899s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[0.913s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[0.913s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.913s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[0.913s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[0.925s] -- Found PythonExtra: .so  
+[0.965s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.974s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.974s] -- Added test 'lint_cmake' to check CMake code style
+[0.975s] -- Added test 'xmllint' to check XML markup files
+[0.977s] -- Configuring done
+[1.001s] -- Generating done
+[1.003s] -- Build files have been written to: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/build/velocity_msg
+[1.008s] Invoked command in '/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/build/velocity_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/src/velocity_msg -DCMAKE_INSTALL_PREFIX=/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg
+[1.009s] Invoking command in '/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/build/velocity_msg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/build/velocity_msg -- -j20 -l20
+[1.037s] [35m[1mScanning dependencies of target velocity_msg__cpp[0m
+[1.037s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.045s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.148s] [35m[1mScanning dependencies of target velocity_msg__rosidl_generator_c[0m
+[1.151s] [  6%] Built target velocity_msg__cpp
+[1.154s] [  9%] [32mBuilding C object CMakeFiles/velocity_msg__rosidl_generator_c.dir/rosidl_generator_c/velocity_msg/msg/detail/num__functions.c.o[0m
+[1.156s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.156s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.156s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.178s] [ 22%] [32m[1mLinking C shared library libvelocity_msg__rosidl_generator_c.so[0m
+[1.199s] [ 22%] Built target velocity_msg__rosidl_generator_c
+[1.205s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.205s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.251s] [35m[1mScanning dependencies of target velocity_msg__rosidl_typesupport_cpp[0m
+[1.258s] [ 32%] [32mBuilding CXX object CMakeFiles/velocity_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/velocity_msg/msg/num__type_support.cpp.o[0m
+[1.258s] [35m[1mScanning dependencies of target velocity_msg__rosidl_typesupport_introspection_cpp[0m
+[1.261s] [35m[1mScanning dependencies of target velocity_msg__rosidl_typesupport_fastrtps_cpp[0m
+[1.264s] [ 35%] [32mBuilding CXX object CMakeFiles/velocity_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/velocity_msg/msg/detail/num__type_support.cpp.o[0m
+[1.268s] [ 38%] [32mBuilding CXX object CMakeFiles/velocity_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/velocity_msg/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[1.300s] [35m[1mScanning dependencies of target velocity_msg__rosidl_typesupport_c[0m
+[1.307s] [ 41%] [32mBuilding CXX object CMakeFiles/velocity_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/velocity_msg/msg/num__type_support.cpp.o[0m
+[1.311s] [35m[1mScanning dependencies of target velocity_msg__rosidl_typesupport_introspection_c[0m
+[1.318s] [ 45%] [32mBuilding C object CMakeFiles/velocity_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/velocity_msg/msg/detail/num__type_support.c.o[0m
+[1.324s] [ 48%] [32m[1mLinking CXX shared library libvelocity_msg__rosidl_typesupport_c.so[0m
+[1.336s] [ 51%] [32m[1mLinking C shared library libvelocity_msg__rosidl_typesupport_introspection_c.so[0m
+[1.348s] [ 51%] Built target velocity_msg__rosidl_typesupport_c
+[1.354s] [ 51%] Built target velocity_msg__rosidl_typesupport_introspection_c
+[1.387s] [ 54%] [32m[1mLinking CXX shared library libvelocity_msg__rosidl_typesupport_cpp.so[0m
+[1.393s] [ 58%] [32m[1mLinking CXX shared library libvelocity_msg__rosidl_typesupport_introspection_cpp.so[0m
+[1.410s] [ 58%] Built target velocity_msg__rosidl_typesupport_cpp
+[1.415s] [ 58%] Built target velocity_msg__rosidl_typesupport_introspection_cpp
+[1.454s] [ 61%] [32m[1mLinking CXX shared library libvelocity_msg__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.501s] [ 61%] Built target velocity_msg__rosidl_typesupport_fastrtps_cpp
+[1.507s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.615s] [35m[1mScanning dependencies of target velocity_msg__rosidl_typesupport_fastrtps_c[0m
+[1.623s] [ 67%] [32mBuilding CXX object CMakeFiles/velocity_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/velocity_msg/msg/detail/num__type_support_c.cpp.o[0m
+[1.770s] [ 70%] [32m[1mLinking CXX shared library libvelocity_msg__rosidl_typesupport_fastrtps_c.so[0m
+[1.818s] [ 70%] Built target velocity_msg__rosidl_typesupport_fastrtps_c
+[1.825s] [35m[1mScanning dependencies of target velocity_msg[0m
+[1.831s] [ 70%] Built target velocity_msg
+[1.839s] [35m[1mScanning dependencies of target velocity_msg__py[0m
+[1.846s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.126s] [ 74%] Built target velocity_msg__py
+[2.131s] [35m[1mScanning dependencies of target velocity_msg__python[0m
+[2.140s] [ 77%] [32mBuilding C object CMakeFiles/velocity_msg__python.dir/rosidl_generator_py/velocity_msg/msg/_num_s.c.o[0m
+[2.184s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/velocity_msg/libvelocity_msg__python.so[0m
+[2.208s] [ 80%] Built target velocity_msg__python
+[2.213s] [35m[1mScanning dependencies of target velocity_msg__rosidl_typesupport_c__pyext[0m
+[2.213s] [35m[1mScanning dependencies of target velocity_msg__rosidl_typesupport_introspection_c__pyext[0m
+[2.214s] [35m[1mScanning dependencies of target velocity_msg__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.225s] [ 83%] [32mBuilding C object CMakeFiles/velocity_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/velocity_msg/_velocity_msg_s.ep.rosidl_typesupport_c.c.o[0m
+[2.225s] [ 87%] [32mBuilding C object CMakeFiles/velocity_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/velocity_msg/_velocity_msg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.225s] [ 90%] [32mBuilding C object CMakeFiles/velocity_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/velocity_msg/_velocity_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.265s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/velocity_msg/velocity_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.265s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/velocity_msg/velocity_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.265s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/velocity_msg/velocity_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.286s] [100%] Built target velocity_msg__rosidl_typesupport_introspection_c__pyext
+[2.286s] [100%] Built target velocity_msg__rosidl_typesupport_c__pyext
+[2.301s] [100%] Built target velocity_msg__rosidl_typesupport_fastrtps_c__pyext
+[2.308s] Invoked command in '/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/build/velocity_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/build/velocity_msg -- -j20 -l20
+[2.347s] Invoking command in '/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/build/velocity_msg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/build/velocity_msg
+[2.356s] -- Install configuration: ""
+[2.356s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/ament_index/resource_index/rosidl_interfaces/velocity_msg
+[2.356s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg
+[2.356s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg
+[2.356s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/detail
+[2.356s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/detail/num__functions.c
+[2.356s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/detail/num__functions.h
+[2.356s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/detail/num__struct.h
+[2.356s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/detail/num__type_support.h
+[2.356s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/rosidl_generator_c__visibility_control.h
+[2.356s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/num.h
+[2.356s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/environment/library_path.sh
+[2.356s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/environment/library_path.dsv
+[2.356s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/libvelocity_msg__rosidl_generator_c.so
+[2.357s] -- Set runtime path of "/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/libvelocity_msg__rosidl_generator_c.so" to ""
+[2.357s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg
+[2.357s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg
+[2.357s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/detail
+[2.357s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[2.357s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.357s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/libvelocity_msg__rosidl_typesupport_fastrtps_c.so
+[2.357s] -- Set runtime path of "/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/libvelocity_msg__rosidl_typesupport_fastrtps_c.so" to ""
+[2.357s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg
+[2.357s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg
+[2.357s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.357s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/detail
+[2.357s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/detail/dds_fastrtps
+[2.357s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[2.357s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/libvelocity_msg__rosidl_typesupport_fastrtps_cpp.so
+[2.358s] -- Set runtime path of "/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/libvelocity_msg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.358s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg
+[2.358s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg
+[2.358s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.358s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/detail
+[2.358s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/detail/num__rosidl_typesupport_introspection_c.h
+[2.358s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/detail/num__type_support.c
+[2.358s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/libvelocity_msg__rosidl_typesupport_introspection_c.so
+[2.358s] -- Set runtime path of "/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/libvelocity_msg__rosidl_typesupport_introspection_c.so" to ""
+[2.358s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/libvelocity_msg__rosidl_typesupport_c.so
+[2.358s] -- Set runtime path of "/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/libvelocity_msg__rosidl_typesupport_c.so" to ""
+[2.358s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg
+[2.358s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg
+[2.358s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/detail
+[2.358s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/detail/num__struct.hpp
+[2.358s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/detail/num__builder.hpp
+[2.358s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/detail/num__traits.hpp
+[2.359s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/detail/num__type_support.hpp
+[2.359s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/num.hpp
+[2.359s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.359s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg
+[2.359s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg
+[2.359s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/detail
+[2.359s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/detail/num__type_support.cpp
+[2.359s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[2.359s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/libvelocity_msg__rosidl_typesupport_introspection_cpp.so
+[2.359s] -- Set runtime path of "/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/libvelocity_msg__rosidl_typesupport_introspection_cpp.so" to ""
+[2.359s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/libvelocity_msg__rosidl_typesupport_cpp.so
+[2.359s] -- Set runtime path of "/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/libvelocity_msg__rosidl_typesupport_cpp.so" to ""
+[2.359s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/environment/pythonpath.sh
+[2.359s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/environment/pythonpath.dsv
+[2.359s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/python3.8/site-packages/velocity_msg/__init__.py
+[2.378s] Compiling '/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/python3.8/site-packages/velocity_msg/__init__.py'...
+[2.380s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/python3.8/site-packages/velocity_msg/msg
+[2.380s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/python3.8/site-packages/velocity_msg/msg/_num_s.c
+[2.380s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/python3.8/site-packages/velocity_msg/msg/__init__.py
+[2.380s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/python3.8/site-packages/velocity_msg/msg/_num.py
+[2.380s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/python3.8/site-packages/velocity_msg/velocity_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[2.381s] -- Set runtime path of "/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/python3.8/site-packages/velocity_msg/velocity_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[2.381s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/python3.8/site-packages/velocity_msg/velocity_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[2.381s] -- Set runtime path of "/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/python3.8/site-packages/velocity_msg/velocity_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[2.381s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/python3.8/site-packages/velocity_msg/velocity_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[2.381s] -- Set runtime path of "/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/python3.8/site-packages/velocity_msg/velocity_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[2.381s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/libvelocity_msg__python.so
+[2.381s] -- Set runtime path of "/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/libvelocity_msg__python.so" to ""
+[2.381s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/msg/Num.idl
+[2.381s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/msg/Num.msg
+[2.382s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/ament_index/resource_index/package_run_dependencies/velocity_msg
+[2.382s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/ament_index/resource_index/parent_prefix_path/velocity_msg
+[2.382s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/environment/ament_prefix_path.sh
+[2.382s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/environment/ament_prefix_path.dsv
+[2.382s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/environment/path.sh
+[2.382s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/environment/path.dsv
+[2.382s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/local_setup.bash
+[2.382s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/local_setup.sh
+[2.382s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/local_setup.zsh
+[2.382s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/local_setup.dsv
+[2.382s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/package.dsv
+[2.382s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/ament_index/resource_index/packages/velocity_msg
+[2.382s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/cmake/velocity_msg__rosidl_generator_cExport.cmake
+[2.382s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/cmake/velocity_msg__rosidl_generator_cExport-noconfig.cmake
+[2.382s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/cmake/velocity_msg__rosidl_typesupport_introspection_cExport.cmake
+[2.382s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/cmake/velocity_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.382s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/cmake/velocity_msg__rosidl_typesupport_cExport.cmake
+[2.382s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/cmake/velocity_msg__rosidl_typesupport_cExport-noconfig.cmake
+[2.382s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/cmake/velocity_msg__rosidl_generator_cppExport.cmake
+[2.383s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/cmake/velocity_msg__rosidl_typesupport_introspection_cppExport.cmake
+[2.383s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/cmake/velocity_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.383s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/cmake/velocity_msg__rosidl_typesupport_cppExport.cmake
+[2.383s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/cmake/velocity_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[2.383s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.383s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/cmake/rosidl_cmake-extras.cmake
+[2.383s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[2.383s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/cmake/ament_cmake_export_targets-extras.cmake
+[2.383s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.383s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.383s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.383s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/cmake/velocity_msgConfig.cmake
+[2.383s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/cmake/velocity_msgConfig-version.cmake
+[2.383s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/package.xml
+[2.385s] Invoked command in '/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/build/velocity_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/build/velocity_msg

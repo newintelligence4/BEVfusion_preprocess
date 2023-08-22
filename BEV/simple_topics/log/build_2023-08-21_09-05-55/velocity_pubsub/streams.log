@@ -1,0 +1,155 @@
+[0.009s] Invoking command in '/home/skyautonet/skyautonet_ws/eee/simple_topics/build/velocity_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/skyautonet/skyautonet_ws/eee/simple_topics/src/velocity_report_pub -DCMAKE_INSTALL_PREFIX=/home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub
+[0.016s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.029s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.122s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.140s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.141s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.201s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.226s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.227s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.301s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.360s] -- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)
+[0.458s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[0.502s] -- The imported target "vtkParseOGLExt" references the file
+[0.502s]    "/usr/bin/vtkParseOGLExt-7.1"
+[0.502s] but this file does not exist.  Possible reasons include:
+[0.502s] * The file was deleted, renamed, or moved to another location.
+[0.502s] * An install or uninstall procedure did not complete successfully.
+[0.502s] * The installation package was faulty and contained
+[0.502s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.502s] but not all the files it references.
+[0.502s] 
+[0.502s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[0.503s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[0.503s] but this file does not exist.  Possible reasons include:
+[0.503s] * The file was deleted, renamed, or moved to another location.
+[0.503s] * An install or uninstall procedure did not complete successfully.
+[0.503s] * The installation package was faulty and contained
+[0.503s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.503s] but not all the files it references.
+[0.503s] 
+[0.503s] -- The imported target "vtk" references the file
+[0.503s]    "/usr/bin/vtk"
+[0.503s] but this file does not exist.  Possible reasons include:
+[0.503s] * The file was deleted, renamed, or moved to another location.
+[0.503s] * An install or uninstall procedure did not complete successfully.
+[0.503s] * The installation package was faulty and contained
+[0.503s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.503s] but not all the files it references.
+[0.503s] 
+[0.503s] -- The imported target "pvtk" references the file
+[0.503s]    "/usr/bin/pvtk"
+[0.503s] but this file does not exist.  Possible reasons include:
+[0.503s] * The file was deleted, renamed, or moved to another location.
+[0.503s] * An install or uninstall procedure did not complete successfully.
+[0.503s] * The installation package was faulty and contained
+[0.503s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.503s] but not all the files it references.
+[0.503s] 
+[0.513s] -- Checking for module 'libusb-1.0'
+[0.514s] --   No package 'libusb-1.0' found
+[0.516s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.516s] -- OpenNI disabled because libusb-1.0 not found.
+[0.516s] ** WARNING ** io features related to openni will be disabled
+[0.519s] -- Checking for module 'libusb-1.0'
+[0.520s] --   No package 'libusb-1.0' found
+[0.522s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.522s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[0.522s] ** WARNING ** io features related to openni2 will be disabled
+[0.522s] ** WARNING ** io features related to pcap will be disabled
+[0.523s] ** WARNING ** io features related to png will be disabled
+[0.530s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[0.530s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[0.533s] -- Checking for module 'libusb-1.0'
+[0.534s] --   No package 'libusb-1.0' found
+[0.536s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.536s] -- OpenNI disabled because libusb-1.0 not found.
+[0.536s] ** WARNING ** visualization features related to openni will be disabled
+[0.538s] -- Checking for module 'libusb-1.0'
+[0.540s] --   No package 'libusb-1.0' found
+[0.541s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.541s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[0.541s] ** WARNING ** visualization features related to openni2 will be disabled
+[0.548s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[0.551s] -- Checking for module 'libusb-1.0'
+[0.552s] --   No package 'libusb-1.0' found
+[0.553s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.554s] -- OpenNI disabled because libusb-1.0 not found.
+[0.554s] ** WARNING ** apps features related to openni will be disabled
+[0.560s] -- looking for PCL_COMMON
+[0.560s] -- looking for PCL_KDTREE
+[0.560s] -- looking for PCL_OCTREE
+[0.560s] -- looking for PCL_SEARCH
+[0.561s] -- looking for PCL_SAMPLE_CONSENSUS
+[0.561s] -- looking for PCL_FILTERS
+[0.561s] -- looking for PCL_2D
+[0.561s] -- looking for PCL_GEOMETRY
+[0.562s] -- looking for PCL_IO
+[0.562s] -- looking for PCL_FEATURES
+[0.562s] -- looking for PCL_ML
+[0.562s] -- looking for PCL_SEGMENTATION
+[0.563s] -- looking for PCL_VISUALIZATION
+[0.563s] -- looking for PCL_SURFACE
+[0.564s] -- looking for PCL_REGISTRATION
+[0.564s] -- looking for PCL_KEYPOINTS
+[0.564s] -- looking for PCL_TRACKING
+[0.565s] -- looking for PCL_RECOGNITION
+[0.565s] -- looking for PCL_STEREO
+[0.565s] -- looking for PCL_APPS
+[0.566s] -- looking for PCL_IN_HAND_SCANNER
+[0.566s] -- looking for PCL_POINT_CLOUD_EDITOR
+[0.566s] -- looking for PCL_OUTOFCORE
+[0.567s] -- looking for PCL_PEOPLE
+[0.568s] -- Found c_auto_vehicle_msgs: 0.0.0 (/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/share/c_auto_vehicle_msgs/cmake)
+[0.589s] -- Found velocity_msg: 0.0.0 (/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/cmake)
+[0.668s] -- Found launch_testing_ament_cmake: 0.10.10 (/opt/ros/foxy/share/launch_testing_ament_cmake/cmake)
+[0.678s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[0.693s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[0.756s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[0.757s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.757s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[0.757s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[0.779s] -- Found PythonExtra: .so  
+[0.837s] -- Configuring done
+[1.441s] -- Generating done
+[1.442s] -- Build files have been written to: /home/skyautonet/skyautonet_ws/eee/simple_topics/build/velocity_pubsub
+[1.447s] Invoked command in '/home/skyautonet/skyautonet_ws/eee/simple_topics/build/velocity_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/skyautonet/skyautonet_ws/eee/simple_topics/src/velocity_report_pub -DCMAKE_INSTALL_PREFIX=/home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub
+[1.449s] Invoking command in '/home/skyautonet/skyautonet_ws/eee/simple_topics/build/velocity_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/skyautonet/skyautonet_ws/eee/simple_topics/build/velocity_pubsub -- -j20 -l20
+[1.475s] [35m[1mScanning dependencies of target int_velocity[0m
+[1.476s] [35m[1mScanning dependencies of target auto_velocity[0m
+[2.420s] [ 20%] [32mBuilding CXX object CMakeFiles/int_velocity.dir/src/publisher_member_function.cpp.o[0m
+[2.662s] [ 40%] [32mBuilding CXX object CMakeFiles/auto_velocity.dir/src/code_node.cpp.o[0m
+[2.664s] [ 60%] [32mBuilding CXX object CMakeFiles/auto_velocity.dir/src/code.cpp.o[0m
+[4.268s] [ 80%] [32m[1mLinking CXX executable int_velocity[0m
+[4.631s] [ 80%] Built target int_velocity
+[7.115s] [01m[K/home/skyautonet/skyautonet_ws/eee/simple_topics/src/velocity_report_pub/src/code.cpp:[m[K In member function ‘[01m[Kvoid SampleVelocity::topic_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[7.115s] [01m[K/home/skyautonet/skyautonet_ws/eee/simple_topics/src/velocity_report_pub/src/code.cpp:46:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knum_points[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[7.115s]    46 |   unsigned int [01;35m[Knum_points[m[K = msg->width;
+[7.115s]       |                [01;35m[K^~~~~~~~~~[m[K
+[9.256s] [100%] [32m[1mLinking CXX executable auto_velocity[0m
+[10.822s] [100%] Built target auto_velocity
+[10.828s] Invoked command in '/home/skyautonet/skyautonet_ws/eee/simple_topics/build/velocity_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/skyautonet/skyautonet_ws/eee/simple_topics/build/velocity_pubsub -- -j20 -l20
+[10.858s] Invoking command in '/home/skyautonet/skyautonet_ws/eee/simple_topics/build/velocity_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/skyautonet/skyautonet_ws/eee/simple_topics/build/velocity_pubsub
+[10.869s] -- Install configuration: ""
+[10.869s] -- Installing: /home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub/lib/velocity_pubsub/auto_velocity
+[10.871s] -- Set runtime path of "/home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub/lib/velocity_pubsub/auto_velocity" to ""
+[10.871s] -- Installing: /home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub/lib/velocity_pubsub/int_velocity
+[10.871s] -- Set runtime path of "/home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub/lib/velocity_pubsub/int_velocity" to ""
+[10.871s] -- Installing: /home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub/share/velocity_pubsub//launch
+[10.871s] -- Installing: /home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub/share/velocity_pubsub//launch/launch.py
+[10.888s] -- Installing: /home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub/share/ament_index/resource_index/package_run_dependencies/velocity_pubsub
+[10.888s] -- Installing: /home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub/share/ament_index/resource_index/parent_prefix_path/velocity_pubsub
+[10.888s] -- Installing: /home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub/share/velocity_pubsub/environment/ament_prefix_path.sh
+[10.888s] -- Installing: /home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub/share/velocity_pubsub/environment/ament_prefix_path.dsv
+[10.888s] -- Installing: /home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub/share/velocity_pubsub/environment/path.sh
+[10.888s] -- Installing: /home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub/share/velocity_pubsub/environment/path.dsv
+[10.888s] -- Installing: /home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub/share/velocity_pubsub/local_setup.bash
+[10.888s] -- Installing: /home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub/share/velocity_pubsub/local_setup.sh
+[10.888s] -- Installing: /home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub/share/velocity_pubsub/local_setup.zsh
+[10.889s] -- Installing: /home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub/share/velocity_pubsub/local_setup.dsv
+[10.889s] -- Installing: /home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub/share/velocity_pubsub/package.dsv
+[10.889s] -- Installing: /home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub/share/ament_index/resource_index/packages/velocity_pubsub
+[10.889s] -- Installing: /home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub/share/velocity_pubsub/cmake/velocity_pubsubConfig.cmake
+[10.889s] -- Installing: /home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub/share/velocity_pubsub/cmake/velocity_pubsubConfig-version.cmake
+[10.889s] -- Installing: /home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub/share/velocity_pubsub/package.xml
+[10.891s] Invoked command in '/home/skyautonet/skyautonet_ws/eee/simple_topics/build/velocity_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/skyautonet/skyautonet_ws/eee/simple_topics/build/velocity_pubsub

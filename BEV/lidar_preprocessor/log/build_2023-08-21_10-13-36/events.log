@@ -1,0 +1,299 @@
+[0.000000] (-) TimerEvent: {}
+[0.000805] (velocity_msg) JobQueued: {'identifier': 'velocity_msg', 'dependencies': OrderedDict()}
+[0.000854] (three_lidar) JobQueued: {'identifier': 'three_lidar', 'dependencies': OrderedDict([('velocity_msg', '/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg')])}
+[0.000868] (velocity_msg) JobStarted: {'identifier': 'velocity_msg'}
+[0.007669] (velocity_msg) JobProgress: {'identifier': 'velocity_msg', 'progress': 'cmake'}
+[0.008289] (velocity_msg) JobProgress: {'identifier': 'velocity_msg', 'progress': 'build'}
+[0.008322] (velocity_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/build/velocity_msg', '--', '-j20', '-l20'], 'cwd': '/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/build/velocity_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'skyautonet'), ('LC_TIME', 'ko_KR.UTF-8'), ('SSH_AGENT_PID', '2032'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.4/lib64/:/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib:/usr/local/cuda-11.4/lib64/:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib::/usr/local/cuda-11.4/lib64'), ('HOME', '/home/skyautonet'), ('OLDPWD', '/home/skyautonet/skyautonet_ws/eee'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1853'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5434'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'skyautonet'), ('JOURNAL_STREAM', '8:50805'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'skyautonet'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-11.4/bin:/usr/local/cuda-11.4/bin:/opt/ros/foxy/bin:/home/skyautonet/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.4/bin'), ('SESSION_MANAGER', 'local/skyautonet-400TEA-400SEA:@/tmp/.ICE-unix/2067,unix/skyautonet-400TEA-400SEA:/tmp/.ICE-unix/2067'), ('INVOCATION_ID', 'c1b57d22f68549b9ac71044e5f9b593f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('CUDARDIR', '/usr/local/cuda-11.4'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '12'), ('AMENT_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar:/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:d26738d9-5b6c-4f24-b9db-5d018746b9ac'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/build/velocity_msg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar:/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg:/opt/ros/foxy')]), 'shell': False}
+[0.040546] (velocity_msg) StdoutLine: {'line': b'[  3%] Built target velocity_msg__cpp\n'}
+[0.040765] (velocity_msg) StdoutLine: {'line': b'[ 12%] Built target velocity_msg__rosidl_generator_c\n'}
+[0.055256] (velocity_msg) StdoutLine: {'line': b'[ 51%] Built target velocity_msg__rosidl_typesupport_c\n'}
+[0.055404] (velocity_msg) StdoutLine: {'line': b'[ 51%] Built target velocity_msg__rosidl_typesupport_introspection_cpp\n'}
+[0.055442] (velocity_msg) StdoutLine: {'line': b'[ 51%] Built target velocity_msg__rosidl_typesupport_introspection_c\n'}
+[0.055471] (velocity_msg) StdoutLine: {'line': b'[ 51%] Built target velocity_msg__rosidl_typesupport_cpp\n'}
+[0.056464] (velocity_msg) StdoutLine: {'line': b'[ 61%] Built target velocity_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[0.070765] (velocity_msg) StdoutLine: {'line': b'[ 70%] Built target velocity_msg__rosidl_typesupport_fastrtps_c\n'}
+[0.081893] (velocity_msg) StdoutLine: {'line': b'[ 70%] Built target velocity_msg\n'}
+[0.098784] (velocity_msg) StdoutLine: {'line': b'[ 74%] Built target velocity_msg__py\n'}
+[0.099924] (-) TimerEvent: {}
+[0.122702] (velocity_msg) StdoutLine: {'line': b'[ 80%] Built target velocity_msg__python\n'}
+[0.147634] (velocity_msg) StdoutLine: {'line': b'[100%] Built target velocity_msg__rosidl_typesupport_c__pyext\n'}
+[0.147763] (velocity_msg) StdoutLine: {'line': b'[100%] Built target velocity_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.147799] (velocity_msg) StdoutLine: {'line': b'[100%] Built target velocity_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[0.153573] (velocity_msg) CommandEnded: {'returncode': 0}
+[0.200172] (-) TimerEvent: {}
+[0.230283] (velocity_msg) JobProgress: {'identifier': 'velocity_msg', 'progress': 'install'}
+[0.246696] (velocity_msg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/build/velocity_msg'], 'cwd': '/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/build/velocity_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'skyautonet'), ('LC_TIME', 'ko_KR.UTF-8'), ('SSH_AGENT_PID', '2032'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.4/lib64/:/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib:/usr/local/cuda-11.4/lib64/:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib::/usr/local/cuda-11.4/lib64'), ('HOME', '/home/skyautonet'), ('OLDPWD', '/home/skyautonet/skyautonet_ws/eee'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1853'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5434'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'skyautonet'), ('JOURNAL_STREAM', '8:50805'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'skyautonet'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-11.4/bin:/usr/local/cuda-11.4/bin:/opt/ros/foxy/bin:/home/skyautonet/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.4/bin'), ('SESSION_MANAGER', 'local/skyautonet-400TEA-400SEA:@/tmp/.ICE-unix/2067,unix/skyautonet-400TEA-400SEA:/tmp/.ICE-unix/2067'), ('INVOCATION_ID', 'c1b57d22f68549b9ac71044e5f9b593f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('CUDARDIR', '/usr/local/cuda-11.4'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '12'), ('AMENT_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar:/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:d26738d9-5b6c-4f24-b9db-5d018746b9ac'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/build/velocity_msg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar:/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg:/opt/ros/foxy')]), 'shell': False}
+[0.253205] (velocity_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.253406] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/ament_index/resource_index/rosidl_interfaces/velocity_msg\n'}
+[0.253489] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg\n'}
+[0.253541] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg\n'}
+[0.253589] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/detail\n'}
+[0.253637] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/detail/num__functions.c\n'}
+[0.253687] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/detail/num__functions.h\n'}
+[0.253735] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/detail/num__struct.h\n'}
+[0.253796] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/detail/num__type_support.h\n'}
+[0.253844] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.253890] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/num.h\n'}
+[0.253937] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/environment/library_path.sh\n'}
+[0.253983] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/environment/library_path.dsv\n'}
+[0.254027] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/libvelocity_msg__rosidl_generator_c.so\n'}
+[0.254095] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg\n'}
+[0.254174] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg\n'}
+[0.254221] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/detail\n'}
+[0.254268] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[0.254348] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.254393] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/libvelocity_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[0.254437] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg\n'}
+[0.254484] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg\n'}
+[0.254528] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.254571] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/detail\n'}
+[0.254638] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/detail/dds_fastrtps\n'}
+[0.254686] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.254756] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/libvelocity_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.254800] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg\n'}
+[0.254845] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg\n'}
+[0.254888] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.254932] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/detail\n'}
+[0.254974] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[0.255017] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/detail/num__type_support.c\n'}
+[0.255079] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/libvelocity_msg__rosidl_typesupport_introspection_c.so\n'}
+[0.255145] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/libvelocity_msg__rosidl_typesupport_c.so\n'}
+[0.255210] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg\n'}
+[0.255292] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg\n'}
+[0.255362] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/detail\n'}
+[0.255409] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/detail/num__struct.hpp\n'}
+[0.255453] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/detail/num__builder.hpp\n'}
+[0.255515] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/detail/num__traits.hpp\n'}
+[0.255559] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/detail/num__type_support.hpp\n'}
+[0.255603] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/num.hpp\n'}
+[0.255647] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.255705] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg\n'}
+[0.255745] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg\n'}
+[0.255787] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/detail\n'}
+[0.255826] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/detail/num__type_support.cpp\n'}
+[0.255868] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/include/velocity_msg/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.255911] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/libvelocity_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[0.255978] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/libvelocity_msg__rosidl_typesupport_cpp.so\n'}
+[0.256056] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/environment/pythonpath.sh\n'}
+[0.256116] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/environment/pythonpath.dsv\n'}
+[0.256182] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/python3.8/site-packages/velocity_msg/__init__.py\n'}
+[0.279936] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/python3.8/site-packages/velocity_msg/msg\n'}
+[0.280040] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/python3.8/site-packages/velocity_msg/msg/_num_s.c\n'}
+[0.280087] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/python3.8/site-packages/velocity_msg/msg/__init__.py\n'}
+[0.280114] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/python3.8/site-packages/velocity_msg/msg/_num.py\n'}
+[0.280149] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/python3.8/site-packages/velocity_msg/velocity_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.280503] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/python3.8/site-packages/velocity_msg/velocity_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.280756] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/python3.8/site-packages/velocity_msg/velocity_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.280990] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/libvelocity_msg__python.so\n'}
+[0.281030] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/msg/Num.idl\n'}
+[0.281076] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/msg/Num.msg\n'}
+[0.281103] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/ament_index/resource_index/package_run_dependencies/velocity_msg\n'}
+[0.281130] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/ament_index/resource_index/parent_prefix_path/velocity_msg\n'}
+[0.281166] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/environment/ament_prefix_path.sh\n'}
+[0.281214] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/environment/ament_prefix_path.dsv\n'}
+[0.281242] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/environment/path.sh\n'}
+[0.281278] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/environment/path.dsv\n'}
+[0.281303] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/local_setup.bash\n'}
+[0.281332] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/local_setup.sh\n'}
+[0.281357] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/local_setup.zsh\n'}
+[0.281390] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/local_setup.dsv\n'}
+[0.281416] (velocity_msg) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/package.dsv\n'}
+[0.281442] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/ament_index/resource_index/packages/velocity_msg\n'}
+[0.281480] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/cmake/velocity_msg__rosidl_generator_cExport.cmake\n'}
+[0.281519] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/cmake/velocity_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.281562] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/cmake/velocity_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.281588] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/cmake/velocity_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.281626] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/cmake/velocity_msg__rosidl_typesupport_cExport.cmake\n'}
+[0.281660] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/cmake/velocity_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.281721] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/cmake/velocity_msg__rosidl_generator_cppExport.cmake\n'}
+[0.281812] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/cmake/velocity_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.281845] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/cmake/velocity_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.281911] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/cmake/velocity_msg__rosidl_typesupport_cppExport.cmake\n'}
+[0.281948] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/cmake/velocity_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.281986] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.282013] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[0.282049] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.282094] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.282121] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.282148] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.282174] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.282210] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/cmake/velocity_msgConfig.cmake\n'}
+[0.282250] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/cmake/velocity_msgConfig-version.cmake\n'}
+[0.282276] (velocity_msg) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/package.xml\n'}
+[0.283381] (velocity_msg) CommandEnded: {'returncode': 0}
+[0.300248] (-) TimerEvent: {}
+[0.340484] (velocity_msg) JobEnded: {'identifier': 'velocity_msg', 'rc': 0}
+[0.341877] (three_lidar) JobStarted: {'identifier': 'three_lidar'}
+[0.347066] (three_lidar) JobProgress: {'identifier': 'three_lidar', 'progress': 'cmake'}
+[0.347533] (three_lidar) JobProgress: {'identifier': 'three_lidar', 'progress': 'build'}
+[0.347706] (three_lidar) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/build/three_lidar', '--', '-j20', '-l20'], 'cwd': '/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/build/three_lidar', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'skyautonet'), ('LC_TIME', 'ko_KR.UTF-8'), ('SSH_AGENT_PID', '2032'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib:/usr/local/cuda-11.4/lib64/:/usr/local/cuda-11.4/lib64/:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64'), ('HOME', '/home/skyautonet'), ('OLDPWD', '/home/skyautonet/skyautonet_ws/eee'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1853'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5434'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'skyautonet'), ('JOURNAL_STREAM', '8:50805'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'skyautonet'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-11.4/bin:/usr/local/cuda-11.4/bin:/opt/ros/foxy/bin:/home/skyautonet/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.4/bin'), ('SESSION_MANAGER', 'local/skyautonet-400TEA-400SEA:@/tmp/.ICE-unix/2067,unix/skyautonet-400TEA-400SEA:/tmp/.ICE-unix/2067'), ('INVOCATION_ID', 'c1b57d22f68549b9ac71044e5f9b593f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('CUDARDIR', '/usr/local/cuda-11.4'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '12'), ('AMENT_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar:/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:d26738d9-5b6c-4f24-b9db-5d018746b9ac'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/build/three_lidar'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg:/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar:/opt/ros/foxy')]), 'shell': False}
+[0.384081] (three_lidar) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target right\x1b[0m\n'}
+[0.384232] (three_lidar) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target left\x1b[0m\n'}
+[0.384280] (three_lidar) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target back\x1b[0m\n'}
+[0.400342] (-) TimerEvent: {}
+[0.412169] (three_lidar) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/back.dir/src/back_lidar.cpp.o\x1b[0m\n'}
+[0.412298] (three_lidar) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/left.dir/src/left_lidar.cpp.o\x1b[0m\n'}
+[0.412336] (three_lidar) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/right.dir/src/right_lidar.cpp.o\x1b[0m\n'}
+[0.500452] (-) TimerEvent: {}
+[0.600710] (-) TimerEvent: {}
+[0.700978] (-) TimerEvent: {}
+[0.801281] (-) TimerEvent: {}
+[0.901530] (-) TimerEvent: {}
+[1.001861] (-) TimerEvent: {}
+[1.102255] (-) TimerEvent: {}
+[1.202631] (-) TimerEvent: {}
+[1.302932] (-) TimerEvent: {}
+[1.403357] (-) TimerEvent: {}
+[1.503751] (-) TimerEvent: {}
+[1.604160] (-) TimerEvent: {}
+[1.704761] (-) TimerEvent: {}
+[1.805076] (-) TimerEvent: {}
+[1.905396] (-) TimerEvent: {}
+[2.005696] (-) TimerEvent: {}
+[2.106035] (-) TimerEvent: {}
+[2.206456] (-) TimerEvent: {}
+[2.306822] (-) TimerEvent: {}
+[2.407104] (-) TimerEvent: {}
+[2.507407] (-) TimerEvent: {}
+[2.607780] (-) TimerEvent: {}
+[2.708116] (-) TimerEvent: {}
+[2.808439] (-) TimerEvent: {}
+[2.908689] (-) TimerEvent: {}
+[3.008983] (-) TimerEvent: {}
+[3.109303] (-) TimerEvent: {}
+[3.209673] (-) TimerEvent: {}
+[3.310048] (-) TimerEvent: {}
+[3.410416] (-) TimerEvent: {}
+[3.510752] (-) TimerEvent: {}
+[3.529520] (three_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/src/three_lidar/src/left_lidar.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LEFT_PREPROCESSING::topic_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.529733] (three_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/src/three_lidar/src/left_lidar.cpp:83:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Ktransform_1\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K-Wunused-but-set-variable\x1b[m\x1b[K]\n'}
+[3.529806] (three_lidar) StderrLine: {'line': b'   83 |   Eigen::Matrix4f \x1b[01;35m\x1b[Ktransform_1\x1b[m\x1b[K = Eigen::Matrix4f::Identity();\n'}
+[3.529868] (three_lidar) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.553140] (three_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/src/three_lidar/src/right_lidar.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid RIGHT_PREPROCESSING::topic_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.553356] (three_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/src/three_lidar/src/right_lidar.cpp:83:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Ktransform_1\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K-Wunused-but-set-variable\x1b[m\x1b[K]\n'}
+[3.553429] (three_lidar) StderrLine: {'line': b'   83 |   Eigen::Matrix4f \x1b[01;35m\x1b[Ktransform_1\x1b[m\x1b[K = Eigen::Matrix4f::Identity();\n'}
+[3.553492] (three_lidar) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.572425] (three_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/src/three_lidar/src/back_lidar.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid BACK_PREPROCESSING::topic_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.572628] (three_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/src/three_lidar/src/back_lidar.cpp:83:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Ktransform_1\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K-Wunused-but-set-variable\x1b[m\x1b[K]\n'}
+[3.572698] (three_lidar) StderrLine: {'line': b'   83 |   Eigen::Matrix4f \x1b[01;35m\x1b[Ktransform_1\x1b[m\x1b[K = Eigen::Matrix4f::Identity();\n'}
+[3.572760] (three_lidar) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.610854] (-) TimerEvent: {}
+[3.711340] (-) TimerEvent: {}
+[3.811861] (-) TimerEvent: {}
+[3.912263] (-) TimerEvent: {}
+[4.012566] (-) TimerEvent: {}
+[4.112989] (-) TimerEvent: {}
+[4.213408] (-) TimerEvent: {}
+[4.313779] (-) TimerEvent: {}
+[4.414060] (-) TimerEvent: {}
+[4.514356] (-) TimerEvent: {}
+[4.614730] (-) TimerEvent: {}
+[4.715087] (-) TimerEvent: {}
+[4.815465] (-) TimerEvent: {}
+[4.915853] (-) TimerEvent: {}
+[5.016247] (-) TimerEvent: {}
+[5.116698] (-) TimerEvent: {}
+[5.217086] (-) TimerEvent: {}
+[5.317522] (-) TimerEvent: {}
+[5.417917] (-) TimerEvent: {}
+[5.518288] (-) TimerEvent: {}
+[5.618677] (-) TimerEvent: {}
+[5.719201] (-) TimerEvent: {}
+[5.819666] (-) TimerEvent: {}
+[5.920061] (-) TimerEvent: {}
+[6.020421] (-) TimerEvent: {}
+[6.120853] (-) TimerEvent: {}
+[6.221202] (-) TimerEvent: {}
+[6.321500] (-) TimerEvent: {}
+[6.421904] (-) TimerEvent: {}
+[6.522284] (-) TimerEvent: {}
+[6.622597] (-) TimerEvent: {}
+[6.722991] (-) TimerEvent: {}
+[6.823366] (-) TimerEvent: {}
+[6.923756] (-) TimerEvent: {}
+[7.024150] (-) TimerEvent: {}
+[7.124498] (-) TimerEvent: {}
+[7.224977] (-) TimerEvent: {}
+[7.325278] (-) TimerEvent: {}
+[7.425578] (-) TimerEvent: {}
+[7.525951] (-) TimerEvent: {}
+[7.626243] (-) TimerEvent: {}
+[7.726533] (-) TimerEvent: {}
+[7.826845] (-) TimerEvent: {}
+[7.927123] (-) TimerEvent: {}
+[8.027397] (-) TimerEvent: {}
+[8.127666] (-) TimerEvent: {}
+[8.227974] (-) TimerEvent: {}
+[8.328259] (-) TimerEvent: {}
+[8.428609] (-) TimerEvent: {}
+[8.528964] (-) TimerEvent: {}
+[8.629296] (-) TimerEvent: {}
+[8.729559] (-) TimerEvent: {}
+[8.829837] (-) TimerEvent: {}
+[8.930197] (-) TimerEvent: {}
+[9.030596] (-) TimerEvent: {}
+[9.130877] (-) TimerEvent: {}
+[9.231201] (-) TimerEvent: {}
+[9.331509] (-) TimerEvent: {}
+[9.391314] (three_lidar) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX executable right\x1b[0m\n'}
+[9.391553] (three_lidar) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX executable left\x1b[0m\n'}
+[9.431031] (three_lidar) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable back\x1b[0m\n'}
+[9.431600] (-) TimerEvent: {}
+[9.531801] (-) TimerEvent: {}
+[9.632262] (-) TimerEvent: {}
+[9.732879] (-) TimerEvent: {}
+[9.833498] (-) TimerEvent: {}
+[9.934154] (-) TimerEvent: {}
+[10.034870] (-) TimerEvent: {}
+[10.135551] (-) TimerEvent: {}
+[10.236294] (-) TimerEvent: {}
+[10.336995] (-) TimerEvent: {}
+[10.437728] (-) TimerEvent: {}
+[10.538561] (-) TimerEvent: {}
+[10.639466] (-) TimerEvent: {}
+[10.740216] (-) TimerEvent: {}
+[10.841015] (-) TimerEvent: {}
+[10.941784] (-) TimerEvent: {}
+[11.042411] (-) TimerEvent: {}
+[11.142937] (-) TimerEvent: {}
+[11.243258] (-) TimerEvent: {}
+[11.343799] (-) TimerEvent: {}
+[11.444199] (-) TimerEvent: {}
+[11.544658] (-) TimerEvent: {}
+[11.611675] (three_lidar) StdoutLine: {'line': b'[ 77%] Built target right\n'}
+[11.644804] (-) TimerEvent: {}
+[11.654237] (three_lidar) StdoutLine: {'line': b'[ 88%] Built target left\n'}
+[11.657261] (three_lidar) StdoutLine: {'line': b'[100%] Built target back\n'}
+[11.663694] (three_lidar) CommandEnded: {'returncode': 0}
+[11.680736] (three_lidar) JobProgress: {'identifier': 'three_lidar', 'progress': 'install'}
+[11.680983] (three_lidar) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/build/three_lidar'], 'cwd': '/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/build/three_lidar', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'skyautonet'), ('LC_TIME', 'ko_KR.UTF-8'), ('SSH_AGENT_PID', '2032'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib:/usr/local/cuda-11.4/lib64/:/usr/local/cuda-11.4/lib64/:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64'), ('HOME', '/home/skyautonet'), ('OLDPWD', '/home/skyautonet/skyautonet_ws/eee'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1853'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5434'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'skyautonet'), ('JOURNAL_STREAM', '8:50805'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'skyautonet'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-11.4/bin:/usr/local/cuda-11.4/bin:/opt/ros/foxy/bin:/home/skyautonet/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.4/bin'), ('SESSION_MANAGER', 'local/skyautonet-400TEA-400SEA:@/tmp/.ICE-unix/2067,unix/skyautonet-400TEA-400SEA:/tmp/.ICE-unix/2067'), ('INVOCATION_ID', 'c1b57d22f68549b9ac71044e5f9b593f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('CUDARDIR', '/usr/local/cuda-11.4'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '12'), ('AMENT_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar:/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:d26738d9-5b6c-4f24-b9db-5d018746b9ac'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/build/three_lidar'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg:/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar:/opt/ros/foxy')]), 'shell': False}
+[11.686217] (three_lidar) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.686325] (three_lidar) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/lib/three_lidar/back\n'}
+[11.688205] (three_lidar) StdoutLine: {'line': b'-- Set runtime path of "/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/lib/three_lidar/back" to ""\n'}
+[11.688283] (three_lidar) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/lib/three_lidar/left\n'}
+[11.690282] (three_lidar) StdoutLine: {'line': b'-- Set runtime path of "/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/lib/three_lidar/left" to ""\n'}
+[11.690330] (three_lidar) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/lib/three_lidar/right\n'}
+[11.691943] (three_lidar) StdoutLine: {'line': b'-- Set runtime path of "/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/lib/three_lidar/right" to ""\n'}
+[11.691986] (three_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar//launch\n'}
+[11.692034] (three_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar//launch/__pycache__\n'}
+[11.692063] (three_lidar) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar//launch/__pycache__/launch.cpython-38.pyc\n'}
+[11.692091] (three_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar//launch/launch.py\n'}
+[11.692129] (three_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/ament_index/resource_index/package_run_dependencies/three_lidar\n'}
+[11.692169] (three_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/ament_index/resource_index/parent_prefix_path/three_lidar\n'}
+[11.692195] (three_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar/environment/ament_prefix_path.sh\n'}
+[11.692236] (three_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar/environment/ament_prefix_path.dsv\n'}
+[11.692261] (three_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar/environment/path.sh\n'}
+[11.692311] (three_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar/environment/path.dsv\n'}
+[11.692338] (three_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar/local_setup.bash\n'}
+[11.692368] (three_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar/local_setup.sh\n'}
+[11.692393] (three_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar/local_setup.zsh\n'}
+[11.692454] (three_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar/local_setup.dsv\n'}
+[11.692482] (three_lidar) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar/package.dsv\n'}
+[11.692562] (three_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/ament_index/resource_index/packages/three_lidar\n'}
+[11.692590] (three_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar/cmake/three_lidarConfig.cmake\n'}
+[11.692616] (three_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar/cmake/three_lidarConfig-version.cmake\n'}
+[11.692643] (three_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar/package.xml\n'}
+[11.693416] (three_lidar) CommandEnded: {'returncode': 0}
+[11.731566] (three_lidar) JobEnded: {'identifier': 'three_lidar', 'rc': 0}
+[11.732020] (-) EventReactorShutdown: {}

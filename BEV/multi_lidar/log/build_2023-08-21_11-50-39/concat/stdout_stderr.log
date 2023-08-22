@@ -1,0 +1,25 @@
+[ 33%] Built target concatenate_data_node
+[ 66%] Built target pointcloud_preprocessor_filter_base
+[35m[1mScanning dependencies of target pointcloud_preprocessor_filter[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/pointcloud_preprocessor_filter.dir/src/concatenate_data/concatenate_data_nodelet.cpp.o[0m
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/opt/ros/foxy/include/diagnostic_updater/diagnostic_status_wrapper.hpp:50[m[K,
+                 from [01m[K/opt/ros/foxy/include/diagnostic_updater/diagnostic_updater.hpp:49[m[K,
+                 from [01m[K/home/skyautonet/skyautonet_ws/eee/multi_lidar/src/concat/include/concat/concatenate_data_nodelet.hpp:66[m[K,
+                 from [01m[K/home/skyautonet/skyautonet_ws/eee/multi_lidar/src/concat/src/concatenate_data/concatenate_data_nodelet.cpp:52[m[K:
+[01m[K/home/skyautonet/skyautonet_ws/eee/multi_lidar/src/concat/src/concatenate_data/concatenate_data_nodelet.cpp:[m[K In member function ‘[01m[Kvoid pointcloud_preprocessor::PointCloudConcatenateDataSynchronizerComponent::publish()[m[K’:
+[01m[K/home/skyautonet/skyautonet_ws/eee/multi_lidar/src/concat/src/concatenate_data/concatenate_data_nodelet.cpp:289:71:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const struct sensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’ {aka ‘[01m[Kconst struct sensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpoints[m[K’
+  289 |       RCLCPP_INFO(this->get_logger(), "e.second %d", sizeof(e.second->[01;31m[Kpoints[m[K));
+      |                                                                       [01;31m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/pointcloud_preprocessor_filter.dir/build.make:63: CMakeFiles/pointcloud_preprocessor_filter.dir/src/concatenate_data/concatenate_data_nodelet.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/pointcloud_preprocessor_filter.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

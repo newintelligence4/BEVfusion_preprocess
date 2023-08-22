@@ -297,7 +297,7 @@ void PointCloudConcatenateDataSynchronizerComponent::publish()
         PointCloudConcatenateDataSynchronizerComponent::combineClouds(
           concat_cloud_ptr_, transformed_cloud_ptr, concat_cloud_ptr_);
       }
-
+      concat_cloud_ptr_->header.stamp = transformed_cloud_ptr->header.stamp;
     } else {
       RCLCPP_INFO(this->get_logger(), e.first);
       RCLCPP_INFO(this->get_logger(),  "NULLPTR");
@@ -307,7 +307,7 @@ void PointCloudConcatenateDataSynchronizerComponent::publish()
   // RCLCPP_INFO(this->get_logger(), "Loop");
   if (concat_cloud_ptr_) {
     concat_cloud_ptr_->is_dense = true;
-    concat_cloud_ptr_->header.stamp = this->get_clock()->now();
+    // concat_cloud_ptr_->header.stamp = this->get_clock()->now();
     auto output = std::make_unique<sensor_msgs::msg::PointCloud2>(*concat_cloud_ptr_);
     pub_output_->publish(std::move(output));
   } else {

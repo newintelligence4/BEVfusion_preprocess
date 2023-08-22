@@ -1,0 +1,26 @@
+[01m[K/home/skyautonet/skyautonet_ws/eee/multi_lidar/src/concat/src/concatenate_data/concatenate_data_nodelet.cpp:[m[K In member function ‘[01m[Kvoid pointcloud_preprocessor::PointCloudConcatenateDataSynchronizerComponent::publish()[m[K’:
+[01m[K/home/skyautonet/skyautonet_ws/eee/multi_lidar/src/concat/src/concatenate_data/concatenate_data_nodelet.cpp:289:22:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} to ‘[01m[Kconst char*[m[K’ [[01;31m[K-fpermissive[m[K]
+  289 |     printf([01;31m[Ktemp_pcl->width[m[K);
+      |            [01;31m[K~~~~~~~~~~^~~~~[m[K
+      |                      [01;31m[K|[m[K
+      |                      [01;31m[Kuint32_t {aka unsigned int}[m[K
+In file included from [01m[K/usr/include/c++/9/cstdio:42[m[K,
+                 from [01m[K/usr/include/c++/9/ext/string_conversions.h:43[m[K,
+                 from [01m[K/usr/include/c++/9/bits/basic_string.h:6496[m[K,
+                 from [01m[K/usr/include/c++/9/string:55[m[K,
+                 from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/9/optional:38[m[K,
+                 from [01m[K/usr/include/c++/9/bits/node_handle.h:39[m[K,
+                 from [01m[K/usr/include/c++/9/bits/stl_tree.h:72[m[K,
+                 from [01m[K/usr/include/c++/9/map:60[m[K,
+                 from [01m[K/home/skyautonet/skyautonet_ws/eee/multi_lidar/src/concat/include/concat/concatenate_data_nodelet.hpp:56[m[K,
+                 from [01m[K/home/skyautonet/skyautonet_ws/eee/multi_lidar/src/concat/src/concatenate_data/concatenate_data_nodelet.cpp:52[m[K:
+[01m[K/usr/include/stdio.h:332:43:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kint printf(const char*, ...)[m[K’
+  332 | extern int printf ([01;36m[Kconst char *__restrict __format[m[K, ...);
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/skyautonet/skyautonet_ws/eee/multi_lidar/src/concat/src/concatenate_data/concatenate_data_nodelet.cpp:289:27:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+  289 |     printf(temp_pcl->width[01;35m[K)[m[K;
+      |                           [01;35m[K^[m[K
+make[2]: *** [CMakeFiles/pointcloud_preprocessor_filter.dir/build.make:63: CMakeFiles/pointcloud_preprocessor_filter.dir/src/concatenate_data/concatenate_data_nodelet.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/pointcloud_preprocessor_filter.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

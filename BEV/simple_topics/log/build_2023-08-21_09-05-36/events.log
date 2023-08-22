@@ -1,0 +1,136 @@
+[0.000000] (-) TimerEvent: {}
+[0.000685] (velocity_pubsub) JobQueued: {'identifier': 'velocity_pubsub', 'dependencies': OrderedDict()}
+[0.000715] (velocity_pubsub) JobStarted: {'identifier': 'velocity_pubsub'}
+[0.007374] (velocity_pubsub) JobProgress: {'identifier': 'velocity_pubsub', 'progress': 'cmake'}
+[0.007669] (velocity_pubsub) Command: {'cmd': ['/usr/bin/cmake', '/home/skyautonet/skyautonet_ws/eee/simple_topics/src/velocity_report_pub', '-DCMAKE_INSTALL_PREFIX=/home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub'], 'cwd': '/home/skyautonet/skyautonet_ws/eee/simple_topics/build/velocity_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'skyautonet'), ('LC_TIME', 'ko_KR.UTF-8'), ('SSH_AGENT_PID', '2032'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib:/usr/local/cuda-11.4/lib64/:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib::/usr/local/cuda-11.4/lib64'), ('HOME', '/home/skyautonet'), ('OLDPWD', '/home/skyautonet/skyautonet_ws/eee'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1853'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5434'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'skyautonet'), ('JOURNAL_STREAM', '8:50805'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'skyautonet'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-11.4/bin:/opt/ros/foxy/bin:/home/skyautonet/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.4/bin'), ('SESSION_MANAGER', 'local/skyautonet-400TEA-400SEA:@/tmp/.ICE-unix/2067,unix/skyautonet-400TEA-400SEA:/tmp/.ICE-unix/2067'), ('INVOCATION_ID', 'c1b57d22f68549b9ac71044e5f9b593f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('CUDARDIR', '/usr/local/cuda-11.4'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:3d4dd44b-c78c-47d0-957f-76a729b404ce'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/skyautonet/skyautonet_ws/eee/simple_topics/build/velocity_pubsub'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs:/opt/ros/foxy')]), 'shell': False}
+[0.017011] (velocity_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.029549] (velocity_pubsub) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.100060] (-) TimerEvent: {}
+[0.110929] (velocity_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.128092] (velocity_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.129824] (velocity_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.192710] (velocity_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.200211] (-) TimerEvent: {}
+[0.217855] (velocity_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.218600] (velocity_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.292798] (velocity_pubsub) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[0.300365] (-) TimerEvent: {}
+[0.352369] (velocity_pubsub) StdoutLine: {'line': b'-- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)\n'}
+[0.400542] (-) TimerEvent: {}
+[0.450528] (velocity_pubsub) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)\n'}
+[0.494565] (velocity_pubsub) StdoutLine: {'line': b'-- The imported target "vtkParseOGLExt" references the file\n'}
+[0.494673] (velocity_pubsub) StdoutLine: {'line': b'   "/usr/bin/vtkParseOGLExt-7.1"\n'}
+[0.494705] (velocity_pubsub) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[0.494730] (velocity_pubsub) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[0.494755] (velocity_pubsub) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[0.494779] (velocity_pubsub) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[0.494802] (velocity_pubsub) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[0.494824] (velocity_pubsub) StdoutLine: {'line': b'but not all the files it references.\n'}
+[0.494846] (velocity_pubsub) StdoutLine: {'line': b'\n'}
+[0.495014] (velocity_pubsub) StdoutLine: {'line': b'-- The imported target "vtkRenderingPythonTkWidgets" references the file\n'}
+[0.495082] (velocity_pubsub) StdoutLine: {'line': b'   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"\n'}
+[0.495112] (velocity_pubsub) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[0.495137] (velocity_pubsub) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[0.495161] (velocity_pubsub) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[0.495183] (velocity_pubsub) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[0.495205] (velocity_pubsub) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[0.495228] (velocity_pubsub) StdoutLine: {'line': b'but not all the files it references.\n'}
+[0.495251] (velocity_pubsub) StdoutLine: {'line': b'\n'}
+[0.495409] (velocity_pubsub) StdoutLine: {'line': b'-- The imported target "vtk" references the file\n'}
+[0.495473] (velocity_pubsub) StdoutLine: {'line': b'   "/usr/bin/vtk"\n'}
+[0.495505] (velocity_pubsub) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[0.495532] (velocity_pubsub) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[0.495679] (velocity_pubsub) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[0.495713] (velocity_pubsub) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[0.495739] (velocity_pubsub) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[0.495763] (velocity_pubsub) StdoutLine: {'line': b'but not all the files it references.\n'}
+[0.495786] (velocity_pubsub) StdoutLine: {'line': b'\n'}
+[0.495810] (velocity_pubsub) StdoutLine: {'line': b'-- The imported target "pvtk" references the file\n'}
+[0.495834] (velocity_pubsub) StdoutLine: {'line': b'   "/usr/bin/pvtk"\n'}
+[0.495858] (velocity_pubsub) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[0.495882] (velocity_pubsub) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[0.495905] (velocity_pubsub) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[0.495929] (velocity_pubsub) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[0.495953] (velocity_pubsub) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[0.495975] (velocity_pubsub) StdoutLine: {'line': b'but not all the files it references.\n'}
+[0.495997] (velocity_pubsub) StdoutLine: {'line': b'\n'}
+[0.500679] (-) TimerEvent: {}
+[0.505313] (velocity_pubsub) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[0.506974] (velocity_pubsub) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[0.508676] (velocity_pubsub) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[0.508770] (velocity_pubsub) StdoutLine: {'line': b'-- OpenNI disabled because libusb-1.0 not found.\n'}
+[0.508803] (velocity_pubsub) StderrLine: {'line': b'** WARNING ** io features related to openni will be disabled\n'}
+[0.511155] (velocity_pubsub) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[0.512456] (velocity_pubsub) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[0.514222] (velocity_pubsub) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[0.514285] (velocity_pubsub) StdoutLine: {'line': b'-- OpenNI 2 disabled because libusb-1.0 not found.\n'}
+[0.514316] (velocity_pubsub) StderrLine: {'line': b'** WARNING ** io features related to openni2 will be disabled\n'}
+[0.514343] (velocity_pubsub) StderrLine: {'line': b'** WARNING ** io features related to pcap will be disabled\n'}
+[0.514366] (velocity_pubsub) StderrLine: {'line': b'** WARNING ** io features related to png will be disabled\n'}
+[0.521574] (velocity_pubsub) StdoutLine: {'line': b'-- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) \n'}
+[0.521651] (velocity_pubsub) StderrLine: {'line': b'** WARNING ** io features related to libusb-1.0 will be disabled\n'}
+[0.524025] (velocity_pubsub) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[0.525575] (velocity_pubsub) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[0.527105] (velocity_pubsub) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[0.527215] (velocity_pubsub) StdoutLine: {'line': b'-- OpenNI disabled because libusb-1.0 not found.\n'}
+[0.527322] (velocity_pubsub) StderrLine: {'line': b'** WARNING ** visualization features related to openni will be disabled\n'}
+[0.529561] (velocity_pubsub) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[0.531003] (velocity_pubsub) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[0.532415] (velocity_pubsub) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[0.532483] (velocity_pubsub) StdoutLine: {'line': b'-- OpenNI 2 disabled because libusb-1.0 not found.\n'}
+[0.532571] (velocity_pubsub) StderrLine: {'line': b'** WARNING ** visualization features related to openni2 will be disabled\n'}
+[0.539391] (velocity_pubsub) StdoutLine: {'line': b'-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)\n'}
+[0.541832] (velocity_pubsub) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[0.543196] (velocity_pubsub) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[0.544729] (velocity_pubsub) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[0.544792] (velocity_pubsub) StdoutLine: {'line': b'-- OpenNI disabled because libusb-1.0 not found.\n'}
+[0.544906] (velocity_pubsub) StderrLine: {'line': b'** WARNING ** apps features related to openni will be disabled\n'}
+[0.551097] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[0.551446] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[0.551646] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[0.551919] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[0.552180] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[0.552392] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[0.552643] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[0.552954] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[0.553145] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[0.553549] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[0.553794] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[0.554081] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[0.554531] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[0.554848] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[0.555219] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[0.555624] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[0.555913] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[0.556326] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[0.556758] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[0.557028] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[0.557674] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[0.557880] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[0.558124] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[0.558517] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[0.559829] (velocity_pubsub) StdoutLine: {'line': b'-- Found c_auto_vehicle_msgs: 0.0.0 (/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/share/c_auto_vehicle_msgs/cmake)\n'}
+[0.586950] (velocity_pubsub) StderrLine: {'line': b'CMake Error at CMakeLists.txt:26 (find_package):\n'}
+[0.587013] (velocity_pubsub) StderrLine: {'line': b'  By not providing "Findvelocity_msg.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.587041] (velocity_pubsub) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.587066] (velocity_pubsub) StderrLine: {'line': b'  "velocity_msg", but CMake did not find one.\n'}
+[0.587090] (velocity_pubsub) StderrLine: {'line': b'\n'}
+[0.587113] (velocity_pubsub) StderrLine: {'line': b'  Could not find a package configuration file provided by "velocity_msg" with\n'}
+[0.587136] (velocity_pubsub) StderrLine: {'line': b'  any of the following names:\n'}
+[0.587159] (velocity_pubsub) StderrLine: {'line': b'\n'}
+[0.587182] (velocity_pubsub) StderrLine: {'line': b'    velocity_msgConfig.cmake\n'}
+[0.587205] (velocity_pubsub) StderrLine: {'line': b'    velocity_msg-config.cmake\n'}
+[0.587228] (velocity_pubsub) StderrLine: {'line': b'\n'}
+[0.587250] (velocity_pubsub) StderrLine: {'line': b'  Add the installation prefix of "velocity_msg" to CMAKE_PREFIX_PATH or set\n'}
+[0.587273] (velocity_pubsub) StderrLine: {'line': b'  "velocity_msg_DIR" to a directory containing one of the above files.  If\n'}
+[0.587296] (velocity_pubsub) StderrLine: {'line': b'  "velocity_msg" provides a separate development package or SDK, be sure it\n'}
+[0.587319] (velocity_pubsub) StderrLine: {'line': b'  has been installed.\n'}
+[0.587342] (velocity_pubsub) StderrLine: {'line': b'\n'}
+[0.587363] (velocity_pubsub) StderrLine: {'line': b'\n'}
+[0.587725] (velocity_pubsub) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.587764] (velocity_pubsub) StdoutLine: {'line': b'See also "/home/skyautonet/skyautonet_ws/eee/simple_topics/build/velocity_pubsub/CMakeFiles/CMakeOutput.log".\n'}
+[0.587788] (velocity_pubsub) StdoutLine: {'line': b'See also "/home/skyautonet/skyautonet_ws/eee/simple_topics/build/velocity_pubsub/CMakeFiles/CMakeError.log".\n'}
+[0.592861] (velocity_pubsub) CommandEnded: {'returncode': 1}
+[0.601220] (-) TimerEvent: {}
+[0.606142] (velocity_pubsub) JobEnded: {'identifier': 'velocity_pubsub', 'rc': 1}
+[0.616578] (-) EventReactorShutdown: {}

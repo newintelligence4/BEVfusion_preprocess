@@ -1,0 +1,221 @@
+[0.000000] (-) TimerEvent: {}
+[0.000103] (velocity_pubsub) JobQueued: {'identifier': 'velocity_pubsub', 'dependencies': OrderedDict()}
+[0.000119] (velocity_pubsub) JobStarted: {'identifier': 'velocity_pubsub'}
+[0.020719] (velocity_pubsub) JobProgress: {'identifier': 'velocity_pubsub', 'progress': 'cmake'}
+[0.099626] (-) TimerEvent: {}
+[0.184359] (velocity_pubsub) JobProgress: {'identifier': 'velocity_pubsub', 'progress': 'build'}
+[0.186514] (velocity_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/skyautonet/skyautonet_ws/eee/simple_topics/build/velocity_pubsub', '--', '-j20', '-l20'], 'cwd': '/home/skyautonet/skyautonet_ws/eee/simple_topics/build/velocity_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'skyautonet'), ('LC_TIME', 'ko_KR.UTF-8'), ('SSH_AGENT_PID', '2032'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.4/lib64/:/usr/local/cuda-11.4/lib64/:/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib:/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib:/usr/local/cuda-11.4/lib64/:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib::/usr/local/cuda-11.4/lib64'), ('HOME', '/home/skyautonet'), ('OLDPWD', '/home/skyautonet/skyautonet_ws/eee'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1853'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5434'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/simple_topics/install:/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install:/home/skyautonet/skyautonet_ws/eee/multi_lidar/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'skyautonet'), ('JOURNAL_STREAM', '8:50805'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'skyautonet'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-11.4/bin:/usr/local/cuda-11.4/bin:/usr/local/cuda-11.4/bin:/opt/ros/foxy/bin:/home/skyautonet/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.4/bin'), ('SESSION_MANAGER', 'local/skyautonet-400TEA-400SEA:@/tmp/.ICE-unix/2067,unix/skyautonet-400TEA-400SEA:/tmp/.ICE-unix/2067'), ('INVOCATION_ID', 'c1b57d22f68549b9ac71044e5f9b593f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('CUDARDIR', '/usr/local/cuda-11.4'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '12'), ('AMENT_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub:/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar:/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg:/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:3d4dd44b-c78c-47d0-957f-76a729b404ce'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/skyautonet/skyautonet_ws/eee/simple_topics/build/velocity_pubsub'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/python3.8/site-packages:/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub:/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar:/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg:/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs:/opt/ros/foxy')]), 'shell': False}
+[0.200012] (-) TimerEvent: {}
+[0.301495] (-) TimerEvent: {}
+[0.391527] (velocity_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.401685] (-) TimerEvent: {}
+[0.420042] (velocity_pubsub) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.420135] (velocity_pubsub) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.501830] (-) TimerEvent: {}
+[0.507229] (velocity_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.525543] (velocity_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.527192] (velocity_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.589585] (velocity_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.601983] (-) TimerEvent: {}
+[0.615398] (velocity_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.616219] (velocity_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.692324] (velocity_pubsub) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[0.702149] (-) TimerEvent: {}
+[0.754007] (velocity_pubsub) StdoutLine: {'line': b'-- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)\n'}
+[0.802316] (-) TimerEvent: {}
+[0.851924] (velocity_pubsub) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)\n'}
+[0.902471] (-) TimerEvent: {}
+[0.914182] (velocity_pubsub) StdoutLine: {'line': b'-- The imported target "vtkParseOGLExt" references the file\n'}
+[0.914265] (velocity_pubsub) StdoutLine: {'line': b'   "/usr/bin/vtkParseOGLExt-7.1"\n'}
+[0.914297] (velocity_pubsub) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[0.914324] (velocity_pubsub) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[0.914350] (velocity_pubsub) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[0.914375] (velocity_pubsub) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[0.914399] (velocity_pubsub) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[0.914422] (velocity_pubsub) StdoutLine: {'line': b'but not all the files it references.\n'}
+[0.914445] (velocity_pubsub) StdoutLine: {'line': b'\n'}
+[0.914699] (velocity_pubsub) StdoutLine: {'line': b'-- The imported target "vtkRenderingPythonTkWidgets" references the file\n'}
+[0.914764] (velocity_pubsub) StdoutLine: {'line': b'   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"\n'}
+[0.914796] (velocity_pubsub) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[0.914823] (velocity_pubsub) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[0.914850] (velocity_pubsub) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[0.914875] (velocity_pubsub) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[0.914899] (velocity_pubsub) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[0.914924] (velocity_pubsub) StdoutLine: {'line': b'but not all the files it references.\n'}
+[0.914946] (velocity_pubsub) StdoutLine: {'line': b'\n'}
+[0.915250] (velocity_pubsub) StdoutLine: {'line': b'-- The imported target "vtk" references the file\n'}
+[0.915319] (velocity_pubsub) StdoutLine: {'line': b'   "/usr/bin/vtk"\n'}
+[0.915353] (velocity_pubsub) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[0.915389] (velocity_pubsub) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[0.915430] (velocity_pubsub) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[0.915458] (velocity_pubsub) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[0.915485] (velocity_pubsub) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[0.915513] (velocity_pubsub) StdoutLine: {'line': b'but not all the files it references.\n'}
+[0.915537] (velocity_pubsub) StdoutLine: {'line': b'\n'}
+[0.915697] (velocity_pubsub) StdoutLine: {'line': b'-- The imported target "pvtk" references the file\n'}
+[0.915767] (velocity_pubsub) StdoutLine: {'line': b'   "/usr/bin/pvtk"\n'}
+[0.915798] (velocity_pubsub) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[0.915827] (velocity_pubsub) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[0.915855] (velocity_pubsub) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[0.915881] (velocity_pubsub) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[0.915906] (velocity_pubsub) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[0.915930] (velocity_pubsub) StdoutLine: {'line': b'but not all the files it references.\n'}
+[0.915958] (velocity_pubsub) StdoutLine: {'line': b'\n'}
+[0.926622] (velocity_pubsub) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[0.981215] (velocity_pubsub) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[0.986196] (velocity_pubsub) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[0.986387] (velocity_pubsub) StdoutLine: {'line': b'-- OpenNI disabled because libusb-1.0 not found.\n'}
+[0.986612] (velocity_pubsub) StderrLine: {'line': b'** WARNING ** io features related to openni will be disabled\n'}
+[0.991053] (velocity_pubsub) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[0.992857] (velocity_pubsub) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[0.994636] (velocity_pubsub) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[0.994705] (velocity_pubsub) StdoutLine: {'line': b'-- OpenNI 2 disabled because libusb-1.0 not found.\n'}
+[0.994831] (velocity_pubsub) StderrLine: {'line': b'** WARNING ** io features related to openni2 will be disabled\n'}
+[0.994874] (velocity_pubsub) StderrLine: {'line': b'** WARNING ** io features related to pcap will be disabled\n'}
+[0.994899] (velocity_pubsub) StderrLine: {'line': b'** WARNING ** io features related to png will be disabled\n'}
+[1.002189] (velocity_pubsub) StdoutLine: {'line': b'-- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) \n'}
+[1.002343] (velocity_pubsub) StderrLine: {'line': b'** WARNING ** io features related to libusb-1.0 will be disabled\n'}
+[1.002522] (-) TimerEvent: {}
+[1.004624] (velocity_pubsub) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[1.006042] (velocity_pubsub) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[1.007493] (velocity_pubsub) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[1.007541] (velocity_pubsub) StdoutLine: {'line': b'-- OpenNI disabled because libusb-1.0 not found.\n'}
+[1.007640] (velocity_pubsub) StderrLine: {'line': b'** WARNING ** visualization features related to openni will be disabled\n'}
+[1.009950] (velocity_pubsub) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[1.011457] (velocity_pubsub) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[1.012957] (velocity_pubsub) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[1.012995] (velocity_pubsub) StdoutLine: {'line': b'-- OpenNI 2 disabled because libusb-1.0 not found.\n'}
+[1.013058] (velocity_pubsub) StderrLine: {'line': b'** WARNING ** visualization features related to openni2 will be disabled\n'}
+[1.020166] (velocity_pubsub) StdoutLine: {'line': b'-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)\n'}
+[1.022707] (velocity_pubsub) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[1.024386] (velocity_pubsub) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[1.025991] (velocity_pubsub) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[1.026029] (velocity_pubsub) StdoutLine: {'line': b'-- OpenNI disabled because libusb-1.0 not found.\n'}
+[1.026086] (velocity_pubsub) StderrLine: {'line': b'** WARNING ** apps features related to openni will be disabled\n'}
+[1.032940] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[1.033330] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[1.033682] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[1.034008] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[1.034374] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[1.034711] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[1.035098] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[1.035365] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[1.035623] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[1.036050] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[1.036483] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[1.036835] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[1.037314] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[1.037758] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[1.038178] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[1.038715] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[1.039182] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[1.039659] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[1.040135] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[1.040413] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[1.041065] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[1.041283] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[1.041518] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[1.041937] (velocity_pubsub) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[1.042986] (velocity_pubsub) StdoutLine: {'line': b'-- Found c_auto_vehicle_msgs: 0.0.0 (/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/share/c_auto_vehicle_msgs/cmake)\n'}
+[1.102652] (-) TimerEvent: {}
+[1.117036] (velocity_pubsub) StdoutLine: {'line': b'-- Found velocity_msg: 0.0.0 (/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/share/velocity_msg/cmake)\n'}
+[1.202862] (-) TimerEvent: {}
+[1.243553] (velocity_pubsub) StdoutLine: {'line': b'-- Found launch_testing_ament_cmake: 0.10.10 (/opt/ros/foxy/share/launch_testing_ament_cmake/cmake)\n'}
+[1.252819] (velocity_pubsub) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.271221] (velocity_pubsub) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.272663] (velocity_pubsub) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.272744] (velocity_pubsub) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.272783] (velocity_pubsub) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.303002] (-) TimerEvent: {}
+[1.307129] (velocity_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.362990] (velocity_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[1.364306] (velocity_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/skyautonet/skyautonet_ws/eee/simple_topics/build/velocity_pubsub\n'}
+[1.403211] (-) TimerEvent: {}
+[1.424175] (velocity_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target auto_velocity\x1b[0m\n'}
+[1.439460] (velocity_pubsub) StdoutLine: {'line': b'[ 40%] Built target int_velocity\n'}
+[1.462976] (velocity_pubsub) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/auto_velocity.dir/src/code_node.cpp.o\x1b[0m\n'}
+[1.464567] (velocity_pubsub) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/auto_velocity.dir/src/code.cpp.o\x1b[0m\n'}
+[1.503325] (-) TimerEvent: {}
+[1.603651] (-) TimerEvent: {}
+[1.703998] (-) TimerEvent: {}
+[1.804352] (-) TimerEvent: {}
+[1.904713] (-) TimerEvent: {}
+[2.005067] (-) TimerEvent: {}
+[2.105422] (-) TimerEvent: {}
+[2.205789] (-) TimerEvent: {}
+[2.306160] (-) TimerEvent: {}
+[2.406513] (-) TimerEvent: {}
+[2.506860] (-) TimerEvent: {}
+[2.607204] (-) TimerEvent: {}
+[2.707584] (-) TimerEvent: {}
+[2.807877] (-) TimerEvent: {}
+[2.908242] (-) TimerEvent: {}
+[3.008533] (-) TimerEvent: {}
+[3.108941] (-) TimerEvent: {}
+[3.209401] (-) TimerEvent: {}
+[3.309756] (-) TimerEvent: {}
+[3.410088] (-) TimerEvent: {}
+[3.510378] (-) TimerEvent: {}
+[3.610653] (-) TimerEvent: {}
+[3.711016] (-) TimerEvent: {}
+[3.811359] (-) TimerEvent: {}
+[3.911642] (-) TimerEvent: {}
+[3.937291] (velocity_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/skyautonet/skyautonet_ws/eee/simple_topics/src/velocity_report_pub/src/code.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SampleVelocity::topic_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.937444] (velocity_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/skyautonet/skyautonet_ws/eee/simple_topics/src/velocity_report_pub/src/code.cpp:46:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Knum_points\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[3.937478] (velocity_pubsub) StderrLine: {'line': b'   46 |   unsigned int \x1b[01;35m\x1b[Knum_points\x1b[m\x1b[K = msg->width;\n'}
+[3.937504] (velocity_pubsub) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.011731] (-) TimerEvent: {}
+[4.111991] (-) TimerEvent: {}
+[4.212298] (-) TimerEvent: {}
+[4.312616] (-) TimerEvent: {}
+[4.412862] (-) TimerEvent: {}
+[4.513105] (-) TimerEvent: {}
+[4.613425] (-) TimerEvent: {}
+[4.713720] (-) TimerEvent: {}
+[4.814020] (-) TimerEvent: {}
+[4.914349] (-) TimerEvent: {}
+[5.014586] (-) TimerEvent: {}
+[5.114886] (-) TimerEvent: {}
+[5.215132] (-) TimerEvent: {}
+[5.315355] (-) TimerEvent: {}
+[5.415699] (-) TimerEvent: {}
+[5.515939] (-) TimerEvent: {}
+[5.616325] (-) TimerEvent: {}
+[5.716496] (-) TimerEvent: {}
+[5.816779] (-) TimerEvent: {}
+[5.917207] (-) TimerEvent: {}
+[6.017469] (-) TimerEvent: {}
+[6.117779] (-) TimerEvent: {}
+[6.183640] (velocity_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable auto_velocity\x1b[0m\n'}
+[6.217936] (-) TimerEvent: {}
+[6.318222] (-) TimerEvent: {}
+[6.418558] (-) TimerEvent: {}
+[6.475543] (velocity_pubsub) StdoutLine: {'line': b'[100%] Built target auto_velocity\n'}
+[6.482986] (velocity_pubsub) CommandEnded: {'returncode': 0}
+[6.497135] (velocity_pubsub) JobProgress: {'identifier': 'velocity_pubsub', 'progress': 'install'}
+[6.502499] (velocity_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/skyautonet/skyautonet_ws/eee/simple_topics/build/velocity_pubsub'], 'cwd': '/home/skyautonet/skyautonet_ws/eee/simple_topics/build/velocity_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'skyautonet'), ('LC_TIME', 'ko_KR.UTF-8'), ('SSH_AGENT_PID', '2032'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.4/lib64/:/usr/local/cuda-11.4/lib64/:/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib:/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib:/usr/local/cuda-11.4/lib64/:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib::/usr/local/cuda-11.4/lib64'), ('HOME', '/home/skyautonet'), ('OLDPWD', '/home/skyautonet/skyautonet_ws/eee'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1853'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5434'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/simple_topics/install:/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install:/home/skyautonet/skyautonet_ws/eee/multi_lidar/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'skyautonet'), ('JOURNAL_STREAM', '8:50805'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'skyautonet'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-11.4/bin:/usr/local/cuda-11.4/bin:/usr/local/cuda-11.4/bin:/opt/ros/foxy/bin:/home/skyautonet/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.4/bin'), ('SESSION_MANAGER', 'local/skyautonet-400TEA-400SEA:@/tmp/.ICE-unix/2067,unix/skyautonet-400TEA-400SEA:/tmp/.ICE-unix/2067'), ('INVOCATION_ID', 'c1b57d22f68549b9ac71044e5f9b593f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('CUDARDIR', '/usr/local/cuda-11.4'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '12'), ('AMENT_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub:/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar:/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg:/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:3d4dd44b-c78c-47d0-957f-76a729b404ce'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/skyautonet/skyautonet_ws/eee/simple_topics/build/velocity_pubsub'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib/python3.8/site-packages:/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub:/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar:/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg:/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs:/opt/ros/foxy')]), 'shell': False}
+[6.508711] (velocity_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.516253] (velocity_pubsub) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub/lib/velocity_pubsub/auto_velocity\n'}
+[6.517413] (velocity_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub/lib/velocity_pubsub/auto_velocity" to ""\n'}
+[6.518645] (-) TimerEvent: {}
+[6.521756] (velocity_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub/lib/velocity_pubsub/int_velocity\n'}
+[6.521877] (velocity_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub/share/velocity_pubsub//launch\n'}
+[6.521925] (velocity_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub/share/velocity_pubsub//launch/launch.py\n'}
+[6.522015] (velocity_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub/share/ament_index/resource_index/package_run_dependencies/velocity_pubsub\n'}
+[6.522136] (velocity_pubsub) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub/share/ament_index/resource_index/parent_prefix_path/velocity_pubsub\n'}
+[6.522217] (velocity_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub/share/velocity_pubsub/environment/ament_prefix_path.sh\n'}
+[6.522270] (velocity_pubsub) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub/share/velocity_pubsub/environment/ament_prefix_path.dsv\n'}
+[6.522353] (velocity_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub/share/velocity_pubsub/environment/path.sh\n'}
+[6.522400] (velocity_pubsub) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub/share/velocity_pubsub/environment/path.dsv\n'}
+[6.522459] (velocity_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub/share/velocity_pubsub/local_setup.bash\n'}
+[6.522504] (velocity_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub/share/velocity_pubsub/local_setup.sh\n'}
+[6.522546] (velocity_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub/share/velocity_pubsub/local_setup.zsh\n'}
+[6.522590] (velocity_pubsub) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub/share/velocity_pubsub/local_setup.dsv\n'}
+[6.522651] (velocity_pubsub) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub/share/velocity_pubsub/package.dsv\n'}
+[6.522731] (velocity_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub/share/ament_index/resource_index/packages/velocity_pubsub\n'}
+[6.522777] (velocity_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub/share/velocity_pubsub/cmake/velocity_pubsubConfig.cmake\n'}
+[6.522819] (velocity_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub/share/velocity_pubsub/cmake/velocity_pubsubConfig-version.cmake\n'}
+[6.522863] (velocity_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/simple_topics/install/velocity_pubsub/share/velocity_pubsub/package.xml\n'}
+[6.524419] (velocity_pubsub) CommandEnded: {'returncode': 0}
+[6.569901] (velocity_pubsub) JobEnded: {'identifier': 'velocity_pubsub', 'rc': 0}
+[6.570394] (-) EventReactorShutdown: {}

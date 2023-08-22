@@ -1,0 +1,4 @@
+source;share/c_auto_vehicle_msgs/local_setup.bash
+source;share/c_auto_vehicle_msgs/local_setup.dsv
+source;share/c_auto_vehicle_msgs/local_setup.sh
+source;share/c_auto_vehicle_msgs/local_setup.zsh

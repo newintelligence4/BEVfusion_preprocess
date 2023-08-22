@@ -1,0 +1,4 @@
+source;share/velocity_msg/local_setup.bash
+source;share/velocity_msg/local_setup.dsv
+source;share/velocity_msg/local_setup.sh
+source;share/velocity_msg/local_setup.zsh

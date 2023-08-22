@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target back[0m
+[ 66%] Built target right
+[ 66%] Built target left
+[ 77%] [32mBuilding CXX object CMakeFiles/back.dir/src/back_lidar.cpp.o[0m

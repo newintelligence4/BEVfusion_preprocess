@@ -1,0 +1,748 @@
+[0.000000] (-) TimerEvent: {}
+[0.000080] (autoware_point_types) JobQueued: {'identifier': 'autoware_point_types', 'dependencies': OrderedDict()}
+[0.000096] (c_auto_vehicle_msgs) JobQueued: {'identifier': 'c_auto_vehicle_msgs', 'dependencies': OrderedDict()}
+[0.000106] (concat) JobQueued: {'identifier': 'concat', 'dependencies': OrderedDict([('c_auto_vehicle_msgs', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs')])}
+[0.000889] (c_auto_vehicle_msgs) JobStarted: {'identifier': 'c_auto_vehicle_msgs'}
+[0.005847] (autoware_point_types) JobStarted: {'identifier': 'autoware_point_types'}
+[0.010842] (c_auto_vehicle_msgs) JobProgress: {'identifier': 'c_auto_vehicle_msgs', 'progress': 'cmake'}
+[0.010947] (c_auto_vehicle_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/src/c_auto_vehicle_msgs', '-DCMAKE_INSTALL_PREFIX=/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs'], 'cwd': '/home/skyautonet/skyautonet_ws/eee/multi_lidar/build/c_auto_vehicle_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'skyautonet'), ('LC_TIME', 'ko_KR.UTF-8'), ('SSH_AGENT_PID', '2032'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.4/lib64/:/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/lib:/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib:/usr/local/cuda-11.4/lib64/:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib::/usr/local/cuda-11.4/lib64'), ('HOME', '/home/skyautonet'), ('OLDPWD', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1853'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5434'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'skyautonet'), ('JOURNAL_STREAM', '8:50805'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'skyautonet'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-11.4/bin:/usr/local/cuda-11.4/bin:/opt/ros/foxy/bin:/home/skyautonet/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.4/bin'), ('SESSION_MANAGER', 'local/skyautonet-400TEA-400SEA:@/tmp/.ICE-unix/2067,unix/skyautonet-400TEA-400SEA:/tmp/.ICE-unix/2067'), ('INVOCATION_ID', 'c1b57d22f68549b9ac71044e5f9b593f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('CUDARDIR', '/usr/local/cuda-11.4'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '12'), ('AMENT_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat:/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:4d1cb820-804d-48bc-9366-3f4aed03ff96'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/build/c_auto_vehicle_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat:/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs:/opt/ros/foxy')]), 'shell': False}
+[0.014180] (autoware_point_types) JobProgress: {'identifier': 'autoware_point_types', 'progress': 'cmake'}
+[0.014296] (autoware_point_types) Command: {'cmd': ['/usr/bin/cmake', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/src/autoware_point_types', '-DCMAKE_INSTALL_PREFIX=/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/autoware_point_types'], 'cwd': '/home/skyautonet/skyautonet_ws/eee/multi_lidar/build/autoware_point_types', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'skyautonet'), ('LC_TIME', 'ko_KR.UTF-8'), ('SSH_AGENT_PID', '2032'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.4/lib64/:/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/lib:/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib:/usr/local/cuda-11.4/lib64/:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib::/usr/local/cuda-11.4/lib64'), ('HOME', '/home/skyautonet'), ('OLDPWD', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1853'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5434'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'skyautonet'), ('JOURNAL_STREAM', '8:50805'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'skyautonet'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-11.4/bin:/usr/local/cuda-11.4/bin:/opt/ros/foxy/bin:/home/skyautonet/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.4/bin'), ('SESSION_MANAGER', 'local/skyautonet-400TEA-400SEA:@/tmp/.ICE-unix/2067,unix/skyautonet-400TEA-400SEA:/tmp/.ICE-unix/2067'), ('INVOCATION_ID', 'c1b57d22f68549b9ac71044e5f9b593f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('CUDARDIR', '/usr/local/cuda-11.4'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '12'), ('AMENT_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat:/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:4d1cb820-804d-48bc-9366-3f4aed03ff96'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/build/autoware_point_types'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat:/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs:/opt/ros/foxy')]), 'shell': False}
+[0.099942] (-) TimerEvent: {}
+[0.200263] (-) TimerEvent: {}
+[0.300622] (-) TimerEvent: {}
+[0.320168] (autoware_point_types) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.321137] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.387774] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.387881] (autoware_point_types) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.400710] (-) TimerEvent: {}
+[0.417562] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.417826] (autoware_point_types) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.500887] (-) TimerEvent: {}
+[0.510147] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.510263] (autoware_point_types) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.510887] (autoware_point_types) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.510957] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.586275] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.586438] (autoware_point_types) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.592520] (autoware_point_types) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.592621] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.600968] (-) TimerEvent: {}
+[0.621517] (autoware_point_types) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.621631] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.636668] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.636824] (autoware_point_types) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.686833] (autoware_point_types) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.687016] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.687390] (autoware_point_types) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.687708] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.701086] (-) TimerEvent: {}
+[0.749340] (autoware_point_types) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.749482] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.755405] (autoware_point_types) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.755743] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.755876] (autoware_point_types) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.755941] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.756410] (autoware_point_types) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.756883] (autoware_point_types) StdoutLine: {'line': b'-- Generating done\n'}
+[0.757187] (autoware_point_types) StdoutLine: {'line': b'-- Build files have been written to: /home/skyautonet/skyautonet_ws/eee/multi_lidar/build/autoware_point_types\n'}
+[0.759536] (autoware_point_types) CommandEnded: {'returncode': 0}
+[0.759904] (autoware_point_types) JobProgress: {'identifier': 'autoware_point_types', 'progress': 'build'}
+[0.760348] (autoware_point_types) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/build/autoware_point_types', '--', '-j20', '-l20'], 'cwd': '/home/skyautonet/skyautonet_ws/eee/multi_lidar/build/autoware_point_types', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'skyautonet'), ('LC_TIME', 'ko_KR.UTF-8'), ('SSH_AGENT_PID', '2032'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.4/lib64/:/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/lib:/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib:/usr/local/cuda-11.4/lib64/:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib::/usr/local/cuda-11.4/lib64'), ('HOME', '/home/skyautonet'), ('OLDPWD', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1853'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5434'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'skyautonet'), ('JOURNAL_STREAM', '8:50805'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'skyautonet'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-11.4/bin:/usr/local/cuda-11.4/bin:/opt/ros/foxy/bin:/home/skyautonet/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.4/bin'), ('SESSION_MANAGER', 'local/skyautonet-400TEA-400SEA:@/tmp/.ICE-unix/2067,unix/skyautonet-400TEA-400SEA:/tmp/.ICE-unix/2067'), ('INVOCATION_ID', 'c1b57d22f68549b9ac71044e5f9b593f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('CUDARDIR', '/usr/local/cuda-11.4'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '12'), ('AMENT_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat:/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:4d1cb820-804d-48bc-9366-3f4aed03ff96'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/build/autoware_point_types'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat:/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs:/opt/ros/foxy')]), 'shell': False}
+[0.784706] (autoware_point_types) CommandEnded: {'returncode': 0}
+[0.791426] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)\n'}
+[0.801535] (-) TimerEvent: {}
+[0.823566] (autoware_point_types) JobEnded: {'identifier': 'autoware_point_types', 'rc': 0}
+[0.867148] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.867358] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.901658] (-) TimerEvent: {}
+[1.002096] (-) TimerEvent: {}
+[1.102428] (-) TimerEvent: {}
+[1.187736] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.202607] (-) TimerEvent: {}
+[1.220202] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.302784] (-) TimerEvent: {}
+[1.403125] (-) TimerEvent: {}
+[1.460073] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.477306] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.503181] (-) TimerEvent: {}
+[1.574872] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.603263] (-) TimerEvent: {}
+[1.657709] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)\n'}
+[1.662016] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)\n'}
+[1.664149] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.9.8 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)\n'}
+[1.665414] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.703426] (-) TimerEvent: {}
+[1.755905] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.803075] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.803479] (-) TimerEvent: {}
+[1.818322] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.830536] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.903699] (-) TimerEvent: {}
+[1.921973] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.922210] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.922249] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.922279] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.934538] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.992328] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.9.8 (/opt/ros/foxy/share/ament_cmake_flake8/cmake)\n'}
+[2.000821] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.9.8 (/opt/ros/foxy/share/ament_cmake_pep257/cmake)\n'}
+[2.002623] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.003819] (-) TimerEvent: {}
+[2.104106] (-) TimerEvent: {}
+[2.152165] (c_auto_vehicle_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.152970] (c_auto_vehicle_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.153651] (c_auto_vehicle_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.159828] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.204258] (-) TimerEvent: {}
+[2.220396] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[2.222459] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/skyautonet/skyautonet_ws/eee/multi_lidar/build/c_auto_vehicle_msgs\n'}
+[2.230580] (c_auto_vehicle_msgs) CommandEnded: {'returncode': 0}
+[2.231275] (c_auto_vehicle_msgs) JobProgress: {'identifier': 'c_auto_vehicle_msgs', 'progress': 'build'}
+[2.231455] (c_auto_vehicle_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/build/c_auto_vehicle_msgs', '--', '-j20', '-l20'], 'cwd': '/home/skyautonet/skyautonet_ws/eee/multi_lidar/build/c_auto_vehicle_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'skyautonet'), ('LC_TIME', 'ko_KR.UTF-8'), ('SSH_AGENT_PID', '2032'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.4/lib64/:/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/lib:/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib:/usr/local/cuda-11.4/lib64/:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib::/usr/local/cuda-11.4/lib64'), ('HOME', '/home/skyautonet'), ('OLDPWD', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1853'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5434'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'skyautonet'), ('JOURNAL_STREAM', '8:50805'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'skyautonet'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-11.4/bin:/usr/local/cuda-11.4/bin:/opt/ros/foxy/bin:/home/skyautonet/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.4/bin'), ('SESSION_MANAGER', 'local/skyautonet-400TEA-400SEA:@/tmp/.ICE-unix/2067,unix/skyautonet-400TEA-400SEA:/tmp/.ICE-unix/2067'), ('INVOCATION_ID', 'c1b57d22f68549b9ac71044e5f9b593f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('CUDARDIR', '/usr/local/cuda-11.4'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '12'), ('AMENT_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat:/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:4d1cb820-804d-48bc-9366-3f4aed03ff96'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/build/c_auto_vehicle_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat:/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs:/opt/ros/foxy')]), 'shell': False}
+[2.256296] (c_auto_vehicle_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target c_auto_vehicle_msgs__cpp\x1b[0m\n'}
+[2.256595] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.262175] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.304409] (-) TimerEvent: {}
+[2.385386] (c_auto_vehicle_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target c_auto_vehicle_msgs__rosidl_generator_c\x1b[0m\n'}
+[2.388596] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[  6%] Built target c_auto_vehicle_msgs__cpp\n'}
+[2.394069] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.394176] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.394210] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.404561] (-) TimerEvent: {}
+[2.458869] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/c_auto_vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/c_auto_vehicle_msgs/msg/detail/velocity_report__functions.c.o\x1b[0m\n'}
+[2.504664] (-) TimerEvent: {}
+[2.519995] (c_auto_vehicle_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target c_auto_vehicle_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.551028] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/c_auto_vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/c_auto_vehicle_msgs/msg/velocity_report__type_support.cpp.o\x1b[0m\n'}
+[2.570622] (c_auto_vehicle_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target c_auto_vehicle_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.570845] (c_auto_vehicle_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target c_auto_vehicle_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.583509] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/c_auto_vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/c_auto_vehicle_msgs/msg/detail/velocity_report__type_support.cpp.o\x1b[0m\n'}
+[2.585060] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32m\x1b[1mLinking C shared library libc_auto_vehicle_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[2.595643] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/c_auto_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/c_auto_vehicle_msgs/msg/detail/dds_fastrtps/velocity_report__type_support.cpp.o\x1b[0m\n'}
+[2.604778] (-) TimerEvent: {}
+[2.605830] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[ 32%] Built target c_auto_vehicle_msgs__rosidl_generator_c\n'}
+[2.612233] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.612448] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.692236] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libc_auto_vehicle_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.704896] (-) TimerEvent: {}
+[2.716177] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[ 41%] Built target c_auto_vehicle_msgs__rosidl_typesupport_cpp\n'}
+[2.732289] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libc_auto_vehicle_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.745111] (c_auto_vehicle_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target c_auto_vehicle_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[2.752396] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/c_auto_vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/c_auto_vehicle_msgs/msg/velocity_report__type_support.cpp.o\x1b[0m\n'}
+[2.769398] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[ 48%] Built target c_auto_vehicle_msgs__rosidl_typesupport_introspection_cpp\n'}
+[2.772476] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libc_auto_vehicle_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.782341] (c_auto_vehicle_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target c_auto_vehicle_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[2.790408] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/c_auto_vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/c_auto_vehicle_msgs/msg/detail/velocity_report__type_support.c.o\x1b[0m\n'}
+[2.794767] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[ 54%] Built target c_auto_vehicle_msgs__rosidl_typesupport_c\n'}
+[2.805060] (-) TimerEvent: {}
+[2.809412] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libc_auto_vehicle_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.827476] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[ 58%] Built target c_auto_vehicle_msgs__rosidl_typesupport_introspection_c\n'}
+[2.894770] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libc_auto_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.905231] (-) TimerEvent: {}
+[2.970603] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[ 61%] Built target c_auto_vehicle_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[2.977306] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.005327] (-) TimerEvent: {}
+[3.105668] (-) TimerEvent: {}
+[3.126249] (c_auto_vehicle_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target c_auto_vehicle_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[3.137898] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/c_auto_vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/c_auto_vehicle_msgs/msg/detail/velocity_report__type_support_c.cpp.o\x1b[0m\n'}
+[3.205780] (-) TimerEvent: {}
+[3.294465] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libc_auto_vehicle_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.305854] (-) TimerEvent: {}
+[3.346562] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[ 70%] Built target c_auto_vehicle_msgs__rosidl_typesupport_fastrtps_c\n'}
+[3.351735] (c_auto_vehicle_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target c_auto_vehicle_msgs\x1b[0m\n'}
+[3.357526] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[ 70%] Built target c_auto_vehicle_msgs\n'}
+[3.363533] (c_auto_vehicle_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target c_auto_vehicle_msgs__py\x1b[0m\n'}
+[3.370127] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.406012] (-) TimerEvent: {}
+[3.506194] (-) TimerEvent: {}
+[3.606933] (-) TimerEvent: {}
+[3.707205] (-) TimerEvent: {}
+[3.716566] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[ 74%] Built target c_auto_vehicle_msgs__py\n'}
+[3.722587] (c_auto_vehicle_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target c_auto_vehicle_msgs__python\x1b[0m\n'}
+[3.807400] (-) TimerEvent: {}
+[3.833777] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/c_auto_vehicle_msgs__python.dir/rosidl_generator_py/c_auto_vehicle_msgs/msg/_velocity_report_s.c.o\x1b[0m\n'}
+[3.901737] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/c_auto_vehicle_msgs/libc_auto_vehicle_msgs__python.so\x1b[0m\n'}
+[3.907564] (-) TimerEvent: {}
+[3.931120] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[ 80%] Built target c_auto_vehicle_msgs__python\n'}
+[3.937162] (c_auto_vehicle_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target c_auto_vehicle_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[3.937274] (c_auto_vehicle_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target c_auto_vehicle_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[3.937309] (c_auto_vehicle_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target c_auto_vehicle_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[3.946550] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/c_auto_vehicle_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/c_auto_vehicle_msgs/_c_auto_vehicle_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.946667] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/c_auto_vehicle_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/c_auto_vehicle_msgs/_c_auto_vehicle_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.946702] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/c_auto_vehicle_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/c_auto_vehicle_msgs/_c_auto_vehicle_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.990252] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/c_auto_vehicle_msgs/c_auto_vehicle_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.990384] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/c_auto_vehicle_msgs/c_auto_vehicle_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.990419] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/c_auto_vehicle_msgs/c_auto_vehicle_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.007655] (-) TimerEvent: {}
+[4.011051] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[100%] Built target c_auto_vehicle_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[4.011174] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[100%] Built target c_auto_vehicle_msgs__rosidl_typesupport_c__pyext\n'}
+[4.027096] (c_auto_vehicle_msgs) StdoutLine: {'line': b'[100%] Built target c_auto_vehicle_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.034448] (c_auto_vehicle_msgs) CommandEnded: {'returncode': 0}
+[4.060210] (c_auto_vehicle_msgs) JobProgress: {'identifier': 'c_auto_vehicle_msgs', 'progress': 'install'}
+[4.067607] (c_auto_vehicle_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/build/c_auto_vehicle_msgs'], 'cwd': '/home/skyautonet/skyautonet_ws/eee/multi_lidar/build/c_auto_vehicle_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'skyautonet'), ('LC_TIME', 'ko_KR.UTF-8'), ('SSH_AGENT_PID', '2032'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.4/lib64/:/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/lib:/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib:/usr/local/cuda-11.4/lib64/:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib::/usr/local/cuda-11.4/lib64'), ('HOME', '/home/skyautonet'), ('OLDPWD', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1853'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5434'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'skyautonet'), ('JOURNAL_STREAM', '8:50805'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'skyautonet'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-11.4/bin:/usr/local/cuda-11.4/bin:/opt/ros/foxy/bin:/home/skyautonet/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.4/bin'), ('SESSION_MANAGER', 'local/skyautonet-400TEA-400SEA:@/tmp/.ICE-unix/2067,unix/skyautonet-400TEA-400SEA:/tmp/.ICE-unix/2067'), ('INVOCATION_ID', 'c1b57d22f68549b9ac71044e5f9b593f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('CUDARDIR', '/usr/local/cuda-11.4'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '12'), ('AMENT_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat:/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:4d1cb820-804d-48bc-9366-3f4aed03ff96'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/build/c_auto_vehicle_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat:/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs:/opt/ros/foxy')]), 'shell': False}
+[4.073555] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.073674] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/share/ament_index/resource_index/rosidl_interfaces/c_auto_vehicle_msgs\n'}
+[4.073738] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/include/c_auto_vehicle_msgs\n'}
+[4.073769] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/include/c_auto_vehicle_msgs/msg\n'}
+[4.073825] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/include/c_auto_vehicle_msgs/msg/detail\n'}
+[4.073856] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/include/c_auto_vehicle_msgs/msg/detail/velocity_report__struct.h\n'}
+[4.073885] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/include/c_auto_vehicle_msgs/msg/detail/velocity_report__functions.c\n'}
+[4.073932] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/include/c_auto_vehicle_msgs/msg/detail/velocity_report__functions.h\n'}
+[4.073961] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/include/c_auto_vehicle_msgs/msg/detail/velocity_report__type_support.h\n'}
+[4.074009] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/include/c_auto_vehicle_msgs/msg/velocity_report.h\n'}
+[4.074037] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/include/c_auto_vehicle_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.074092] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/share/c_auto_vehicle_msgs/environment/library_path.sh\n'}
+[4.074118] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/share/c_auto_vehicle_msgs/environment/library_path.dsv\n'}
+[4.074143] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib/libc_auto_vehicle_msgs__rosidl_generator_c.so\n'}
+[4.074205] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib/libc_auto_vehicle_msgs__rosidl_generator_c.so" to ""\n'}
+[4.074260] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/include/c_auto_vehicle_msgs\n'}
+[4.074289] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/include/c_auto_vehicle_msgs/msg\n'}
+[4.074315] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/include/c_auto_vehicle_msgs/msg/detail\n'}
+[4.074365] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/include/c_auto_vehicle_msgs/msg/detail/velocity_report__rosidl_typesupport_fastrtps_c.h\n'}
+[4.074394] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/include/c_auto_vehicle_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.074437] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib/libc_auto_vehicle_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[4.074521] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib/libc_auto_vehicle_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[4.074580] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/include/c_auto_vehicle_msgs\n'}
+[4.074609] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/include/c_auto_vehicle_msgs/msg\n'}
+[4.074636] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/include/c_auto_vehicle_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.074679] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/include/c_auto_vehicle_msgs/msg/detail\n'}
+[4.074727] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/include/c_auto_vehicle_msgs/msg/detail/dds_fastrtps\n'}
+[4.074758] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/include/c_auto_vehicle_msgs/msg/detail/velocity_report__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.074802] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib/libc_auto_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.074876] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib/libc_auto_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[4.074930] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/include/c_auto_vehicle_msgs\n'}
+[4.074980] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/include/c_auto_vehicle_msgs/msg\n'}
+[4.075020] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/include/c_auto_vehicle_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.075065] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/include/c_auto_vehicle_msgs/msg/detail\n'}
+[4.075102] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/include/c_auto_vehicle_msgs/msg/detail/velocity_report__type_support.c\n'}
+[4.075147] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/include/c_auto_vehicle_msgs/msg/detail/velocity_report__rosidl_typesupport_introspection_c.h\n'}
+[4.075199] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib/libc_auto_vehicle_msgs__rosidl_typesupport_introspection_c.so\n'}
+[4.075349] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib/libc_auto_vehicle_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.075403] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib/libc_auto_vehicle_msgs__rosidl_typesupport_c.so\n'}
+[4.075534] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib/libc_auto_vehicle_msgs__rosidl_typesupport_c.so" to ""\n'}
+[4.075577] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/include/c_auto_vehicle_msgs\n'}
+[4.075625] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/include/c_auto_vehicle_msgs/msg\n'}
+[4.075652] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/include/c_auto_vehicle_msgs/msg/velocity_report.hpp\n'}
+[4.075700] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/include/c_auto_vehicle_msgs/msg/detail\n'}
+[4.075728] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/include/c_auto_vehicle_msgs/msg/detail/velocity_report__type_support.hpp\n'}
+[4.075774] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/include/c_auto_vehicle_msgs/msg/detail/velocity_report__struct.hpp\n'}
+[4.075801] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/include/c_auto_vehicle_msgs/msg/detail/velocity_report__builder.hpp\n'}
+[4.075843] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/include/c_auto_vehicle_msgs/msg/detail/velocity_report__traits.hpp\n'}
+[4.075869] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/include/c_auto_vehicle_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[4.075921] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/include/c_auto_vehicle_msgs\n'}
+[4.075948] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/include/c_auto_vehicle_msgs/msg\n'}
+[4.075995] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/include/c_auto_vehicle_msgs/msg/detail\n'}
+[4.076018] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/include/c_auto_vehicle_msgs/msg/detail/velocity_report__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.076041] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/include/c_auto_vehicle_msgs/msg/detail/velocity_report__type_support.cpp\n'}
+[4.076063] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib/libc_auto_vehicle_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[4.076105] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib/libc_auto_vehicle_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.076150] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib/libc_auto_vehicle_msgs__rosidl_typesupport_cpp.so\n'}
+[4.076245] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib/libc_auto_vehicle_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[4.076283] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/share/c_auto_vehicle_msgs/environment/pythonpath.sh\n'}
+[4.076324] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/share/c_auto_vehicle_msgs/environment/pythonpath.dsv\n'}
+[4.076413] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib/python3.8/site-packages/c_auto_vehicle_msgs/__init__.py\n'}
+[4.092476] (c_auto_vehicle_msgs) StdoutLine: {'line': b"Compiling '/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib/python3.8/site-packages/c_auto_vehicle_msgs/__init__.py'...\n"}
+[4.094576] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib/python3.8/site-packages/c_auto_vehicle_msgs/msg\n'}
+[4.094624] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib/python3.8/site-packages/c_auto_vehicle_msgs/msg/_velocity_report.py\n'}
+[4.094648] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib/python3.8/site-packages/c_auto_vehicle_msgs/msg/__init__.py\n'}
+[4.094671] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib/python3.8/site-packages/c_auto_vehicle_msgs/msg/_velocity_report_s.c\n'}
+[4.094795] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib/python3.8/site-packages/c_auto_vehicle_msgs/c_auto_vehicle_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[4.095054] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib/python3.8/site-packages/c_auto_vehicle_msgs/c_auto_vehicle_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[4.095200] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib/python3.8/site-packages/c_auto_vehicle_msgs/c_auto_vehicle_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[4.095461] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib/python3.8/site-packages/c_auto_vehicle_msgs/c_auto_vehicle_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[4.095585] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib/python3.8/site-packages/c_auto_vehicle_msgs/c_auto_vehicle_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[4.095802] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib/python3.8/site-packages/c_auto_vehicle_msgs/c_auto_vehicle_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[4.095849] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib/libc_auto_vehicle_msgs__python.so\n'}
+[4.095957] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib/libc_auto_vehicle_msgs__python.so" to ""\n'}
+[4.096001] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/share/c_auto_vehicle_msgs/msg/VelocityReport.idl\n'}
+[4.096065] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/share/ament_index/resource_index/package_run_dependencies/c_auto_vehicle_msgs\n'}
+[4.096124] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/share/ament_index/resource_index/parent_prefix_path/c_auto_vehicle_msgs\n'}
+[4.096171] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/share/c_auto_vehicle_msgs/environment/ament_prefix_path.sh\n'}
+[4.096215] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/share/c_auto_vehicle_msgs/environment/ament_prefix_path.dsv\n'}
+[4.096259] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/share/c_auto_vehicle_msgs/environment/path.sh\n'}
+[4.096301] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/share/c_auto_vehicle_msgs/environment/path.dsv\n'}
+[4.096345] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/share/c_auto_vehicle_msgs/local_setup.bash\n'}
+[4.096384] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/share/c_auto_vehicle_msgs/local_setup.sh\n'}
+[4.096428] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/share/c_auto_vehicle_msgs/local_setup.zsh\n'}
+[4.096468] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/share/c_auto_vehicle_msgs/local_setup.dsv\n'}
+[4.096508] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/share/c_auto_vehicle_msgs/package.dsv\n'}
+[4.096565] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/share/ament_index/resource_index/packages/c_auto_vehicle_msgs\n'}
+[4.096646] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/share/c_auto_vehicle_msgs/cmake/c_auto_vehicle_msgs__rosidl_generator_cExport.cmake\n'}
+[4.096696] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/share/c_auto_vehicle_msgs/cmake/c_auto_vehicle_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.096779] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/share/c_auto_vehicle_msgs/cmake/c_auto_vehicle_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.096828] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/share/c_auto_vehicle_msgs/cmake/c_auto_vehicle_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.096902] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/share/c_auto_vehicle_msgs/cmake/c_auto_vehicle_msgs__rosidl_typesupport_cExport.cmake\n'}
+[4.096945] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/share/c_auto_vehicle_msgs/cmake/c_auto_vehicle_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.097015] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/share/c_auto_vehicle_msgs/cmake/c_auto_vehicle_msgs__rosidl_generator_cppExport.cmake\n'}
+[4.097095] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/share/c_auto_vehicle_msgs/cmake/c_auto_vehicle_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.097142] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/share/c_auto_vehicle_msgs/cmake/c_auto_vehicle_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.097216] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/share/c_auto_vehicle_msgs/cmake/c_auto_vehicle_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[4.097263] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/share/c_auto_vehicle_msgs/cmake/c_auto_vehicle_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.097308] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/share/c_auto_vehicle_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[4.097351] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/share/c_auto_vehicle_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.097395] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/share/c_auto_vehicle_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.097440] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/share/c_auto_vehicle_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.097482] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/share/c_auto_vehicle_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.097525] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/share/c_auto_vehicle_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.097567] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/share/c_auto_vehicle_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.097611] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/share/c_auto_vehicle_msgs/cmake/c_auto_vehicle_msgsConfig.cmake\n'}
+[4.097655] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/share/c_auto_vehicle_msgs/cmake/c_auto_vehicle_msgsConfig-version.cmake\n'}
+[4.097697] (c_auto_vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/share/c_auto_vehicle_msgs/package.xml\n'}
+[4.098849] (c_auto_vehicle_msgs) CommandEnded: {'returncode': 0}
+[4.107828] (-) TimerEvent: {}
+[4.145810] (c_auto_vehicle_msgs) JobEnded: {'identifier': 'c_auto_vehicle_msgs', 'rc': 0}
+[4.146845] (concat) JobStarted: {'identifier': 'concat'}
+[4.150884] (concat) JobProgress: {'identifier': 'concat', 'progress': 'cmake'}
+[4.150981] (concat) Command: {'cmd': ['/usr/bin/cmake', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/src/concat', '-DCMAKE_INSTALL_PREFIX=/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat'], 'cwd': '/home/skyautonet/skyautonet_ws/eee/multi_lidar/build/concat', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'skyautonet'), ('LC_TIME', 'ko_KR.UTF-8'), ('SSH_AGENT_PID', '2032'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib:/usr/local/cuda-11.4/lib64/:/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/lib:/usr/local/cuda-11.4/lib64/:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64'), ('HOME', '/home/skyautonet'), ('OLDPWD', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1853'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5434'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'skyautonet'), ('JOURNAL_STREAM', '8:50805'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'skyautonet'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-11.4/bin:/usr/local/cuda-11.4/bin:/opt/ros/foxy/bin:/home/skyautonet/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.4/bin'), ('SESSION_MANAGER', 'local/skyautonet-400TEA-400SEA:@/tmp/.ICE-unix/2067,unix/skyautonet-400TEA-400SEA:/tmp/.ICE-unix/2067'), ('INVOCATION_ID', 'c1b57d22f68549b9ac71044e5f9b593f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('CUDARDIR', '/usr/local/cuda-11.4'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '12'), ('AMENT_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat:/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:4d1cb820-804d-48bc-9366-3f4aed03ff96'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/build/concat'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs:/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat:/opt/ros/foxy')]), 'shell': False}
+[4.182416] (concat) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[4.207918] (-) TimerEvent: {}
+[4.211586] (concat) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[4.214544] (concat) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[4.251944] (concat) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[4.252401] (concat) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.292638] (concat) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.301310] (concat) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.301432] (concat) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.302875] (concat) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[4.308013] (-) TimerEvent: {}
+[4.349881] (concat) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[4.350885] (concat) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.400515] (concat) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.408193] (-) TimerEvent: {}
+[4.408925] (concat) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.409420] (concat) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.410851] (concat) StdoutLine: {'line': b'-- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)\n'}
+[4.425997] (concat) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[4.426108] (concat) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.508348] (-) TimerEvent: {}
+[4.608821] (-) TimerEvent: {}
+[4.679293] (concat) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.682433] (concat) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[4.708965] (-) TimerEvent: {}
+[4.725914] (concat) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[4.740936] (concat) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[4.781327] (concat) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.809032] (-) TimerEvent: {}
+[4.812067] (concat) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[4.813132] (concat) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.831423] (concat) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.882990] (concat) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.883271] (concat) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.909237] (-) TimerEvent: {}
+[4.975088] (concat) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[4.975355] (concat) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[5.009349] (-) TimerEvent: {}
+[5.012951] (concat) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[5.013116] (concat) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[5.051834] (concat) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[5.052597] (concat) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.109560] (-) TimerEvent: {}
+[5.210016] (-) TimerEvent: {}
+[5.310238] (-) TimerEvent: {}
+[5.410508] (-) TimerEvent: {}
+[5.510839] (-) TimerEvent: {}
+[5.611107] (-) TimerEvent: {}
+[5.711497] (-) TimerEvent: {}
+[5.777613] (concat) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)\n'}
+[5.799066] (concat) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[5.811701] (-) TimerEvent: {}
+[5.912207] (-) TimerEvent: {}
+[6.012677] (-) TimerEvent: {}
+[6.112896] (-) TimerEvent: {}
+[6.133734] (concat) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[6.141003] (concat) StdoutLine: {'line': b'--   Found eigen3, version 3.3.7\n'}
+[6.163032] (concat) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[6.163178] (concat) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)\n'}
+[6.213053] (-) TimerEvent: {}
+[6.244124] (concat) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[6.267222] (concat) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[6.291771] (concat) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[6.313245] (-) TimerEvent: {}
+[6.413705] (-) TimerEvent: {}
+[6.439114] (concat) StdoutLine: {'line': b'-- The imported target "vtkParseOGLExt" references the file\n'}
+[6.439242] (concat) StdoutLine: {'line': b'   "/usr/bin/vtkParseOGLExt-7.1"\n'}
+[6.439273] (concat) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[6.439298] (concat) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[6.439323] (concat) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[6.439347] (concat) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[6.439370] (concat) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[6.439393] (concat) StdoutLine: {'line': b'but not all the files it references.\n'}
+[6.439415] (concat) StdoutLine: {'line': b'\n'}
+[6.439692] (concat) StdoutLine: {'line': b'-- The imported target "vtkRenderingPythonTkWidgets" references the file\n'}
+[6.439757] (concat) StdoutLine: {'line': b'   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"\n'}
+[6.439787] (concat) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[6.439816] (concat) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[6.439840] (concat) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[6.439864] (concat) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[6.439886] (concat) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[6.439909] (concat) StdoutLine: {'line': b'but not all the files it references.\n'}
+[6.439931] (concat) StdoutLine: {'line': b'\n'}
+[6.440140] (concat) StdoutLine: {'line': b'-- The imported target "vtk" references the file\n'}
+[6.440205] (concat) StdoutLine: {'line': b'   "/usr/bin/vtk"\n'}
+[6.440237] (concat) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[6.440265] (concat) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[6.440290] (concat) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[6.440316] (concat) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[6.440341] (concat) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[6.440366] (concat) StdoutLine: {'line': b'but not all the files it references.\n'}
+[6.440391] (concat) StdoutLine: {'line': b'\n'}
+[6.440441] (concat) StdoutLine: {'line': b'-- The imported target "pvtk" references the file\n'}
+[6.440477] (concat) StdoutLine: {'line': b'   "/usr/bin/pvtk"\n'}
+[6.440500] (concat) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[6.440523] (concat) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[6.440544] (concat) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[6.440567] (concat) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[6.440590] (concat) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[6.440613] (concat) StdoutLine: {'line': b'but not all the files it references.\n'}
+[6.440635] (concat) StdoutLine: {'line': b'\n'}
+[6.513886] (-) TimerEvent: {}
+[6.541048] (concat) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[6.543807] (concat) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[6.547715] (concat) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[6.547904] (concat) StdoutLine: {'line': b'-- OpenNI disabled because libusb-1.0 not found.\n'}
+[6.553941] (concat) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[6.556690] (concat) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[6.559595] (concat) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[6.559695] (concat) StdoutLine: {'line': b'-- OpenNI 2 disabled because libusb-1.0 not found.\n'}
+[6.568363] (concat) StdoutLine: {'line': b'-- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) \n'}
+[6.571595] (concat) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[6.573354] (concat) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[6.575628] (concat) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[6.575680] (concat) StdoutLine: {'line': b'-- OpenNI disabled because libusb-1.0 not found.\n'}
+[6.578360] (concat) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[6.579929] (concat) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[6.581888] (concat) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[6.581930] (concat) StdoutLine: {'line': b'-- OpenNI 2 disabled because libusb-1.0 not found.\n'}
+[6.612313] (concat) StdoutLine: {'line': b'-- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  \n'}
+[6.612373] (concat) StdoutLine: {'line': b'-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)\n'}
+[6.613947] (-) TimerEvent: {}
+[6.615254] (concat) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[6.617173] (concat) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[6.618971] (concat) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[6.619039] (concat) StdoutLine: {'line': b'-- OpenNI disabled because libusb-1.0 not found.\n'}
+[6.626497] (concat) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[6.627061] (concat) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[6.627861] (concat) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[6.628539] (concat) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[6.629161] (concat) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[6.629741] (concat) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[6.644090] (concat) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.10  \n'}
+[6.644443] (concat) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.10  \n'}
+[6.645261] (concat) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[6.646029] (concat) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[6.660221] (concat) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[6.661092] (concat) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[6.661897] (concat) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[6.662685] (concat) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[6.663505] (concat) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[6.664306] (concat) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[6.665486] (concat) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[6.666231] (concat) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[6.667022] (concat) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[6.667835] (concat) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[6.668542] (concat) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  \n'}
+[6.668989] (concat) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  \n'}
+[6.669690] (concat) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[6.670710] (concat) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[6.714120] (-) TimerEvent: {}
+[6.814342] (-) TimerEvent: {}
+[6.914587] (-) TimerEvent: {}
+[6.955297] (concat) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.2.0") \n'}
+[6.959255] (concat) StdoutLine: {'line': b'-- Found Boost: /usr/include (found version "1.71.0")  \n'}
+[6.959733] (concat) StderrLine: {'line': b'CMake Warning (dev) at CMakeLists.txt:29 (find_package):\n'}
+[6.959796] (concat) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[6.959828] (concat) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[6.959856] (concat) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[6.959885] (concat) StderrLine: {'line': b'\n'}
+[6.959913] (concat) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[6.959940] (concat) StderrLine: {'line': b'\n'}
+[6.959965] (concat) StderrLine: {'line': b'    /usr\n'}
+[6.959991] (concat) StderrLine: {'line': b'\n'}
+[6.960016] (concat) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[6.960042] (concat) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.960067] (concat) StderrLine: {'line': b'\n'}
+[7.014755] (-) TimerEvent: {}
+[7.028316] (concat) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[7.042986] (concat) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[7.115011] (-) TimerEvent: {}
+[7.126735] (concat) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[7.127792] (concat) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/skyautonet/skyautonet_ws/eee/multi_lidar/src/concat/include;$<BUILD_INTERFACE:/home/skyautonet/skyautonet_ws/eee/multi_lidar/src/concat/include>\n'}
+[7.127910] (concat) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[7.131788] (concat) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[7.131953] (concat) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[7.132482] (concat) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[7.133262] (concat) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.133741] (concat) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[7.135912] (concat) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[7.136012] (concat) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[7.136439] (concat) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.139287] (concat) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.215162] (-) TimerEvent: {}
+[7.315837] (-) TimerEvent: {}
+[7.416574] (-) TimerEvent: {}
+[7.517045] (-) TimerEvent: {}
+[7.617315] (-) TimerEvent: {}
+[7.618756] (concat) StdoutLine: {'line': b'-- Generating done\n'}
+[7.620172] (concat) StdoutLine: {'line': b'-- Build files have been written to: /home/skyautonet/skyautonet_ws/eee/multi_lidar/build/concat\n'}
+[7.629241] (concat) CommandEnded: {'returncode': 0}
+[7.631391] (concat) JobProgress: {'identifier': 'concat', 'progress': 'build'}
+[7.631617] (concat) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/build/concat', '--', '-j20', '-l20'], 'cwd': '/home/skyautonet/skyautonet_ws/eee/multi_lidar/build/concat', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'skyautonet'), ('LC_TIME', 'ko_KR.UTF-8'), ('SSH_AGENT_PID', '2032'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib:/usr/local/cuda-11.4/lib64/:/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/lib:/usr/local/cuda-11.4/lib64/:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64'), ('HOME', '/home/skyautonet'), ('OLDPWD', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1853'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5434'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'skyautonet'), ('JOURNAL_STREAM', '8:50805'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'skyautonet'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-11.4/bin:/usr/local/cuda-11.4/bin:/opt/ros/foxy/bin:/home/skyautonet/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.4/bin'), ('SESSION_MANAGER', 'local/skyautonet-400TEA-400SEA:@/tmp/.ICE-unix/2067,unix/skyautonet-400TEA-400SEA:/tmp/.ICE-unix/2067'), ('INVOCATION_ID', 'c1b57d22f68549b9ac71044e5f9b593f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('CUDARDIR', '/usr/local/cuda-11.4'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '12'), ('AMENT_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat:/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:4d1cb820-804d-48bc-9366-3f4aed03ff96'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/build/concat'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs:/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat:/opt/ros/foxy')]), 'shell': False}
+[7.652962] (concat) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target concatenate_data_node\x1b[0m\n'}
+[7.653102] (concat) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pointcloud_preprocessor_filter_base\x1b[0m\n'}
+[7.673677] (concat) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/concatenate_data_node.dir/rclcpp_components/node_main_concatenate_data_node.cpp.o\x1b[0m\n'}
+[7.717490] (-) TimerEvent: {}
+[7.817858] (-) TimerEvent: {}
+[7.918375] (-) TimerEvent: {}
+[7.919061] (concat) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/pointcloud_preprocessor_filter_base.dir/src/filter.cpp.o\x1b[0m\n'}
+[8.018503] (-) TimerEvent: {}
+[8.118874] (-) TimerEvent: {}
+[8.219280] (-) TimerEvent: {}
+[8.319583] (-) TimerEvent: {}
+[8.419948] (-) TimerEvent: {}
+[8.520352] (-) TimerEvent: {}
+[8.620742] (-) TimerEvent: {}
+[8.721035] (-) TimerEvent: {}
+[8.790489] (concat) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable concatenate_data_node\x1b[0m\n'}
+[8.821144] (-) TimerEvent: {}
+[8.857725] (concat) StdoutLine: {'line': b'[ 50%] Built target concatenate_data_node\n'}
+[8.921237] (-) TimerEvent: {}
+[9.021615] (-) TimerEvent: {}
+[9.122003] (-) TimerEvent: {}
+[9.222289] (-) TimerEvent: {}
+[9.322662] (-) TimerEvent: {}
+[9.423140] (-) TimerEvent: {}
+[9.523539] (-) TimerEvent: {}
+[9.623957] (-) TimerEvent: {}
+[9.724209] (-) TimerEvent: {}
+[9.824467] (-) TimerEvent: {}
+[9.924708] (-) TimerEvent: {}
+[10.024963] (-) TimerEvent: {}
+[10.125229] (-) TimerEvent: {}
+[10.225558] (-) TimerEvent: {}
+[10.325832] (-) TimerEvent: {}
+[10.426194] (-) TimerEvent: {}
+[10.526457] (-) TimerEvent: {}
+[10.626847] (-) TimerEvent: {}
+[10.727131] (-) TimerEvent: {}
+[10.827388] (-) TimerEvent: {}
+[10.927703] (-) TimerEvent: {}
+[11.028035] (-) TimerEvent: {}
+[11.128395] (-) TimerEvent: {}
+[11.228727] (-) TimerEvent: {}
+[11.329063] (-) TimerEvent: {}
+[11.429409] (-) TimerEvent: {}
+[11.529784] (-) TimerEvent: {}
+[11.630096] (-) TimerEvent: {}
+[11.730403] (-) TimerEvent: {}
+[11.830750] (-) TimerEvent: {}
+[11.931171] (-) TimerEvent: {}
+[12.031463] (-) TimerEvent: {}
+[12.131760] (-) TimerEvent: {}
+[12.232068] (-) TimerEvent: {}
+[12.332339] (-) TimerEvent: {}
+[12.432658] (-) TimerEvent: {}
+[12.532920] (-) TimerEvent: {}
+[12.633225] (-) TimerEvent: {}
+[12.733534] (-) TimerEvent: {}
+[12.833897] (-) TimerEvent: {}
+[12.934286] (-) TimerEvent: {}
+[13.034589] (-) TimerEvent: {}
+[13.134800] (-) TimerEvent: {}
+[13.235121] (-) TimerEvent: {}
+[13.335310] (-) TimerEvent: {}
+[13.435539] (-) TimerEvent: {}
+[13.535772] (-) TimerEvent: {}
+[13.636016] (-) TimerEvent: {}
+[13.736378] (-) TimerEvent: {}
+[13.836841] (-) TimerEvent: {}
+[13.937161] (-) TimerEvent: {}
+[14.037441] (-) TimerEvent: {}
+[14.137776] (-) TimerEvent: {}
+[14.238094] (-) TimerEvent: {}
+[14.338392] (-) TimerEvent: {}
+[14.438677] (-) TimerEvent: {}
+[14.538988] (-) TimerEvent: {}
+[14.639355] (-) TimerEvent: {}
+[14.739705] (-) TimerEvent: {}
+[14.840007] (-) TimerEvent: {}
+[14.940240] (-) TimerEvent: {}
+[15.040572] (-) TimerEvent: {}
+[15.140912] (-) TimerEvent: {}
+[15.241262] (-) TimerEvent: {}
+[15.341638] (-) TimerEvent: {}
+[15.441933] (-) TimerEvent: {}
+[15.542163] (-) TimerEvent: {}
+[15.642506] (-) TimerEvent: {}
+[15.742781] (-) TimerEvent: {}
+[15.843072] (-) TimerEvent: {}
+[15.943333] (-) TimerEvent: {}
+[16.043572] (-) TimerEvent: {}
+[16.143909] (-) TimerEvent: {}
+[16.244175] (-) TimerEvent: {}
+[16.344556] (-) TimerEvent: {}
+[16.444914] (-) TimerEvent: {}
+[16.545262] (-) TimerEvent: {}
+[16.645594] (-) TimerEvent: {}
+[16.745994] (-) TimerEvent: {}
+[16.846362] (-) TimerEvent: {}
+[16.946719] (-) TimerEvent: {}
+[17.046977] (-) TimerEvent: {}
+[17.147244] (-) TimerEvent: {}
+[17.247573] (-) TimerEvent: {}
+[17.251496] (concat) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libpointcloud_preprocessor_filter_base.so\x1b[0m\n'}
+[17.347691] (-) TimerEvent: {}
+[17.447972] (-) TimerEvent: {}
+[17.548330] (-) TimerEvent: {}
+[17.648673] (-) TimerEvent: {}
+[17.709364] (concat) StdoutLine: {'line': b'[ 66%] Built target pointcloud_preprocessor_filter_base\n'}
+[17.717894] (concat) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pointcloud_preprocessor_filter\x1b[0m\n'}
+[17.748826] (-) TimerEvent: {}
+[17.761117] (concat) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/pointcloud_preprocessor_filter.dir/src/concatenate_data/concatenate_data_nodelet.cpp.o\x1b[0m\n'}
+[17.848989] (-) TimerEvent: {}
+[17.949257] (-) TimerEvent: {}
+[18.049556] (-) TimerEvent: {}
+[18.149818] (-) TimerEvent: {}
+[18.250147] (-) TimerEvent: {}
+[18.350455] (-) TimerEvent: {}
+[18.450789] (-) TimerEvent: {}
+[18.551035] (-) TimerEvent: {}
+[18.651312] (-) TimerEvent: {}
+[18.751595] (-) TimerEvent: {}
+[18.851856] (-) TimerEvent: {}
+[18.952137] (-) TimerEvent: {}
+[19.052475] (-) TimerEvent: {}
+[19.152769] (-) TimerEvent: {}
+[19.253000] (-) TimerEvent: {}
+[19.353241] (-) TimerEvent: {}
+[19.453542] (-) TimerEvent: {}
+[19.553845] (-) TimerEvent: {}
+[19.654119] (-) TimerEvent: {}
+[19.754350] (-) TimerEvent: {}
+[19.854588] (-) TimerEvent: {}
+[19.954878] (-) TimerEvent: {}
+[20.055204] (-) TimerEvent: {}
+[20.155470] (-) TimerEvent: {}
+[20.255777] (-) TimerEvent: {}
+[20.356110] (-) TimerEvent: {}
+[20.456609] (-) TimerEvent: {}
+[20.557072] (-) TimerEvent: {}
+[20.657508] (-) TimerEvent: {}
+[20.757806] (-) TimerEvent: {}
+[20.858173] (-) TimerEvent: {}
+[20.958532] (-) TimerEvent: {}
+[21.058855] (-) TimerEvent: {}
+[21.159122] (-) TimerEvent: {}
+[21.259359] (-) TimerEvent: {}
+[21.359648] (-) TimerEvent: {}
+[21.459906] (-) TimerEvent: {}
+[21.560177] (-) TimerEvent: {}
+[21.660503] (-) TimerEvent: {}
+[21.760872] (-) TimerEvent: {}
+[21.861102] (-) TimerEvent: {}
+[21.961372] (-) TimerEvent: {}
+[22.061679] (-) TimerEvent: {}
+[22.162009] (-) TimerEvent: {}
+[22.262421] (-) TimerEvent: {}
+[22.362717] (-) TimerEvent: {}
+[22.463076] (-) TimerEvent: {}
+[22.563567] (-) TimerEvent: {}
+[22.663907] (-) TimerEvent: {}
+[22.764207] (-) TimerEvent: {}
+[22.864536] (-) TimerEvent: {}
+[22.964858] (-) TimerEvent: {}
+[23.065312] (-) TimerEvent: {}
+[23.165617] (-) TimerEvent: {}
+[23.265958] (-) TimerEvent: {}
+[23.366232] (-) TimerEvent: {}
+[23.466492] (-) TimerEvent: {}
+[23.566768] (-) TimerEvent: {}
+[23.667011] (-) TimerEvent: {}
+[23.767426] (-) TimerEvent: {}
+[23.867768] (-) TimerEvent: {}
+[23.968253] (-) TimerEvent: {}
+[24.068580] (-) TimerEvent: {}
+[24.168969] (-) TimerEvent: {}
+[24.269249] (-) TimerEvent: {}
+[24.369582] (-) TimerEvent: {}
+[24.469881] (-) TimerEvent: {}
+[24.570200] (-) TimerEvent: {}
+[24.670524] (-) TimerEvent: {}
+[24.770790] (-) TimerEvent: {}
+[24.871002] (-) TimerEvent: {}
+[24.971276] (-) TimerEvent: {}
+[25.071627] (-) TimerEvent: {}
+[25.171956] (-) TimerEvent: {}
+[25.272293] (-) TimerEvent: {}
+[25.372623] (-) TimerEvent: {}
+[25.472932] (-) TimerEvent: {}
+[25.573216] (-) TimerEvent: {}
+[25.673493] (-) TimerEvent: {}
+[25.773787] (-) TimerEvent: {}
+[25.874133] (-) TimerEvent: {}
+[25.974494] (-) TimerEvent: {}
+[26.074907] (-) TimerEvent: {}
+[26.175147] (-) TimerEvent: {}
+[26.275418] (-) TimerEvent: {}
+[26.375751] (-) TimerEvent: {}
+[26.476145] (-) TimerEvent: {}
+[26.576607] (-) TimerEvent: {}
+[26.591726] (concat) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libpointcloud_preprocessor_filter.so\x1b[0m\n'}
+[26.676817] (-) TimerEvent: {}
+[26.777203] (-) TimerEvent: {}
+[26.877637] (-) TimerEvent: {}
+[26.978015] (-) TimerEvent: {}
+[27.078272] (-) TimerEvent: {}
+[27.155488] (concat) StdoutLine: {'line': b'[100%] Built target pointcloud_preprocessor_filter\n'}
+[27.162989] (concat) CommandEnded: {'returncode': 0}
+[27.178354] (-) TimerEvent: {}
+[27.179595] (concat) JobProgress: {'identifier': 'concat', 'progress': 'install'}
+[27.180007] (concat) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/build/concat'], 'cwd': '/home/skyautonet/skyautonet_ws/eee/multi_lidar/build/concat', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'skyautonet'), ('LC_TIME', 'ko_KR.UTF-8'), ('SSH_AGENT_PID', '2032'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib:/usr/local/cuda-11.4/lib64/:/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/lib:/usr/local/cuda-11.4/lib64/:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64'), ('HOME', '/home/skyautonet'), ('OLDPWD', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1853'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5434'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'skyautonet'), ('JOURNAL_STREAM', '8:50805'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'skyautonet'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-11.4/bin:/usr/local/cuda-11.4/bin:/opt/ros/foxy/bin:/home/skyautonet/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.4/bin'), ('SESSION_MANAGER', 'local/skyautonet-400TEA-400SEA:@/tmp/.ICE-unix/2067,unix/skyautonet-400TEA-400SEA:/tmp/.ICE-unix/2067'), ('INVOCATION_ID', 'c1b57d22f68549b9ac71044e5f9b593f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('CUDARDIR', '/usr/local/cuda-11.4'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '12'), ('AMENT_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat:/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:4d1cb820-804d-48bc-9366-3f4aed03ff96'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/build/concat'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs:/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat:/opt/ros/foxy')]), 'shell': False}
+[27.185814] (concat) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[27.185971] (concat) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/lib/concat/concatenate_data_node\n'}
+[27.186143] (concat) StdoutLine: {'line': b'-- Set runtime path of "/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/lib/concat/concatenate_data_node" to ""\n'}
+[27.186225] (concat) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/lib/libpointcloud_preprocessor_filter_base.so\n'}
+[27.189563] (concat) StdoutLine: {'line': b'-- Set runtime path of "/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/lib/libpointcloud_preprocessor_filter_base.so" to ""\n'}
+[27.189707] (concat) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/include/concat\n'}
+[27.189803] (concat) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/include/concat/concat\n'}
+[27.189901] (concat) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/include/concat/concat/types.hpp\n'}
+[27.189976] (concat) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/include/concat/concat/concatenate_data_nodelet.hpp\n'}
+[27.190053] (concat) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/include/concat/filter.hpp\n'}
+[27.190128] (concat) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat//launch\n'}
+[27.190192] (concat) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat//launch/preprocessor.launch.xml\n'}
+[27.190256] (concat) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat//launch/preprocessor.launch.py\n'}
+[27.190318] (concat) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/include\n'}
+[27.190389] (concat) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/include/concat\n'}
+[27.190450] (concat) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/include/concat/types.hpp\n'}
+[27.190516] (concat) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/include/concat/concatenate_data_nodelet.hpp\n'}
+[27.190579] (concat) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/include/filter.hpp\n'}
+[27.190641] (concat) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/environment/library_path.sh\n'}
+[27.190704] (concat) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/environment/library_path.dsv\n'}
+[27.190766] (concat) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/lib/libpointcloud_preprocessor_filter.so\n'}
+[27.193751] (concat) StdoutLine: {'line': b'-- Set runtime path of "/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/lib/libpointcloud_preprocessor_filter.so" to ""\n'}
+[27.193886] (concat) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/launch\n'}
+[27.193964] (concat) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/launch/preprocessor.launch.xml\n'}
+[27.194038] (concat) StdoutLine: {'line': b'-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/launch/preprocessor.launch.py\n'}
+[27.194124] (concat) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/ament_index/resource_index/package_run_dependencies/concat\n'}
+[27.194205] (concat) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/ament_index/resource_index/parent_prefix_path/concat\n'}
+[27.194284] (concat) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/environment/ament_prefix_path.sh\n'}
+[27.194363] (concat) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/environment/ament_prefix_path.dsv\n'}
+[27.194434] (concat) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/environment/path.sh\n'}
+[27.194506] (concat) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/environment/path.dsv\n'}
+[27.194597] (concat) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/local_setup.bash\n'}
+[27.194679] (concat) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/local_setup.sh\n'}
+[27.194768] (concat) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/local_setup.zsh\n'}
+[27.194831] (concat) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/local_setup.dsv\n'}
+[27.194897] (concat) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/package.dsv\n'}
+[27.195077] (concat) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/ament_index/resource_index/packages/concat\n'}
+[27.195118] (concat) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/ament_index/resource_index/rclcpp_components/concat\n'}
+[27.195147] (concat) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/cmake/export_concatExport.cmake\n'}
+[27.195178] (concat) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/cmake/export_concatExport-noconfig.cmake\n'}
+[27.195203] (concat) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[27.195229] (concat) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[27.195253] (concat) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[27.195277] (concat) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[27.195302] (concat) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/cmake/concatConfig.cmake\n'}
+[27.195327] (concat) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/cmake/concatConfig-version.cmake\n'}
+[27.195351] (concat) StdoutLine: {'line': b'-- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/package.xml\n'}
+[27.196170] (concat) CommandEnded: {'returncode': 0}
+[27.230054] (concat) JobEnded: {'identifier': 'concat', 'rc': 0}
+[27.230518] (-) EventReactorShutdown: {}

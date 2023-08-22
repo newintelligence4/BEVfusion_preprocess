@@ -1,0 +1,30 @@
+[35m[1mScanning dependencies of target left[0m
+[ 55%] Built target right
+[ 66%] Built target back
+[ 77%] [32mBuilding CXX object CMakeFiles/left.dir/src/left_lidar.cpp.o[0m
+[ 88%] [32m[1mLinking CXX executable left[0m
+[100%] Built target left
+-- Install configuration: ""
+-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/lib/three_lidar/back
+-- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/lib/three_lidar/left
+-- Set runtime path of "/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/lib/three_lidar/left" to ""
+-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/lib/three_lidar/right
+-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar//launch
+-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar//launch/__pycache__
+-- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar//launch/__pycache__/launch.cpython-38.pyc
+-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar//launch/launch.py
+-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/ament_index/resource_index/package_run_dependencies/three_lidar
+-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/ament_index/resource_index/parent_prefix_path/three_lidar
+-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar/environment/ament_prefix_path.sh
+-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar/environment/path.sh
+-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar/environment/path.dsv
+-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar/local_setup.bash
+-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar/local_setup.sh
+-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar/local_setup.zsh
+-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar/local_setup.dsv
+-- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar/package.dsv
+-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/ament_index/resource_index/packages/three_lidar
+-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar/cmake/three_lidarConfig.cmake
+-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar/cmake/three_lidarConfig-version.cmake
+-- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar/package.xml

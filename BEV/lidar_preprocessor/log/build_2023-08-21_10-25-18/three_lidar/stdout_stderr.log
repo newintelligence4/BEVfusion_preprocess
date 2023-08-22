@@ -1,0 +1,11 @@
+[35m[1mScanning dependencies of target back[0m
+[ 66%] Built target right
+[ 66%] Built target left
+[ 77%] [32mBuilding CXX object CMakeFiles/back.dir/src/back_lidar.cpp.o[0m
+[01m[K/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/src/three_lidar/src/back_lidar.cpp:[m[K In member function ‘[01m[Kvoid BACK_PREPROCESSING::topic_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/src/three_lidar/src/back_lidar.cpp:83:19:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ktransform_1[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   83 |   Eigen::Matrix4f [01;35m[Ktransform_1[m[K = Eigen::Matrix4f::Identity();
+      |                   [01;35m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/back.dir/build.make:76: CMakeFiles/back.dir/src/back_lidar.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/back.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

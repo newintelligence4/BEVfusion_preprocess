@@ -1,0 +1,46 @@
+[0.007s] Invoking command in '/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/build/three_lidar': CMAKE_PREFIX_PATH=/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg:/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar:/opt/ros/foxy LD_LIBRARY_PATH=/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib:/usr/local/cuda-11.4/lib64/:/usr/local/cuda-11.4/lib64/:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --build /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/build/three_lidar -- -j20 -l20
+[0.032s] [35m[1mScanning dependencies of target left[0m
+[0.032s] [35m[1mScanning dependencies of target right[0m
+[0.046s] [ 33%] Built target back
+[0.059s] [ 55%] [32mBuilding CXX object CMakeFiles/left.dir/src/left_lidar.cpp.o[0m
+[0.059s] [ 55%] [32mBuilding CXX object CMakeFiles/right.dir/src/right_lidar.cpp.o[0m
+[3.267s] [01m[K/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/src/three_lidar/src/left_lidar.cpp:[m[K In member function ‘[01m[Kvoid LEFT_PREPROCESSING::topic_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.267s] [01m[K/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/src/three_lidar/src/left_lidar.cpp:83:19:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ktransform_1[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[3.267s]    83 |   Eigen::Matrix4f [01;35m[Ktransform_1[m[K = Eigen::Matrix4f::Identity();
+[3.267s]       |                   [01;35m[K^~~~~~~~~~~[m[K
+[3.300s] [01m[K/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/src/three_lidar/src/right_lidar.cpp:[m[K In member function ‘[01m[Kvoid RIGHT_PREPROCESSING::topic_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.300s] [01m[K/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/src/three_lidar/src/right_lidar.cpp:83:19:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ktransform_1[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[3.300s]    83 |   Eigen::Matrix4f [01;35m[Ktransform_1[m[K = Eigen::Matrix4f::Identity();
+[3.300s]       |                   [01;35m[K^~~~~~~~~~~[m[K
+[9.299s] [ 66%] [32m[1mLinking CXX executable left[0m
+[9.333s] [ 77%] [32m[1mLinking CXX executable right[0m
+[11.177s] [ 88%] Built target left
+[11.209s] [100%] Built target right
+[11.215s] Invoked command in '/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/build/three_lidar' returned '0': CMAKE_PREFIX_PATH=/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg:/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar:/opt/ros/foxy LD_LIBRARY_PATH=/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib:/usr/local/cuda-11.4/lib64/:/usr/local/cuda-11.4/lib64/:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --build /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/build/three_lidar -- -j20 -l20
+[11.237s] Invoking command in '/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/build/three_lidar': CMAKE_PREFIX_PATH=/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg:/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar:/opt/ros/foxy LD_LIBRARY_PATH=/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib:/usr/local/cuda-11.4/lib64/:/usr/local/cuda-11.4/lib64/:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --install /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/build/three_lidar
+[11.244s] -- Install configuration: ""
+[11.244s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/lib/three_lidar/back
+[11.245s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/lib/three_lidar/left
+[11.248s] -- Set runtime path of "/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/lib/three_lidar/left" to ""
+[11.248s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/lib/three_lidar/right
+[11.251s] -- Set runtime path of "/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/lib/three_lidar/right" to ""
+[11.251s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar//launch
+[11.251s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar//launch/__pycache__
+[11.251s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar//launch/__pycache__/launch.cpython-38.pyc
+[11.251s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar//launch/launch.py
+[11.251s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/ament_index/resource_index/package_run_dependencies/three_lidar
+[11.251s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/ament_index/resource_index/parent_prefix_path/three_lidar
+[11.251s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar/environment/ament_prefix_path.sh
+[11.251s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar/environment/ament_prefix_path.dsv
+[11.251s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar/environment/path.sh
+[11.251s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar/environment/path.dsv
+[11.251s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar/local_setup.bash
+[11.251s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar/local_setup.sh
+[11.251s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar/local_setup.zsh
+[11.251s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar/local_setup.dsv
+[11.252s] -- Installing: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar/package.dsv
+[11.252s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/ament_index/resource_index/packages/three_lidar
+[11.252s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar/cmake/three_lidarConfig.cmake
+[11.252s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar/cmake/three_lidarConfig-version.cmake
+[11.252s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar/share/three_lidar/package.xml
+[11.255s] Invoked command in '/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/build/three_lidar' returned '0': CMAKE_PREFIX_PATH=/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg:/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/three_lidar:/opt/ros/foxy LD_LIBRARY_PATH=/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/install/velocity_msg/lib:/usr/local/cuda-11.4/lib64/:/usr/local/cuda-11.4/lib64/:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --install /home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/build/three_lidar

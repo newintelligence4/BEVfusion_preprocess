@@ -1,0 +1,55 @@
+[0.012s] Invoking command in '/home/skyautonet/skyautonet_ws/eee/multi_lidar/build/concat': AMENT_PREFIX_PATH=/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib:/usr/local/cuda-11.4/lib64/:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/skyautonet/skyautonet_ws/eee/multi_lidar/build/concat -- -j20 -l20
+[0.084s] [ 33%] Built target concatenate_data_node
+[0.091s] [ 66%] Built target pointcloud_preprocessor_filter_base
+[0.100s] [35m[1mScanning dependencies of target pointcloud_preprocessor_filter[0m
+[0.131s] [ 83%] [32mBuilding CXX object CMakeFiles/pointcloud_preprocessor_filter.dir/src/concatenate_data/concatenate_data_nodelet.cpp.o[0m
+[8.383s] [100%] [32m[1mLinking CXX shared library libpointcloud_preprocessor_filter.so[0m
+[13.155s] [100%] Built target pointcloud_preprocessor_filter
+[13.161s] Invoked command in '/home/skyautonet/skyautonet_ws/eee/multi_lidar/build/concat' returned '0': AMENT_PREFIX_PATH=/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib:/usr/local/cuda-11.4/lib64/:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/skyautonet/skyautonet_ws/eee/multi_lidar/build/concat -- -j20 -l20
+[13.178s] Invoking command in '/home/skyautonet/skyautonet_ws/eee/multi_lidar/build/concat': AMENT_PREFIX_PATH=/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib:/usr/local/cuda-11.4/lib64/:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/skyautonet/skyautonet_ws/eee/multi_lidar/build/concat
+[13.200s] -- Install configuration: ""
+[13.216s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/lib/concat/concatenate_data_node
+[13.233s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/lib/libpointcloud_preprocessor_filter_base.so
+[13.233s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/include/concat
+[13.234s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/include/concat/concat
+[13.234s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/include/concat/concat/types.hpp
+[13.235s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/include/concat/concat/concatenate_data_nodelet.hpp
+[13.235s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/include/concat/filter.hpp
+[13.235s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat//launch
+[13.235s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat//launch/preprocessor.launch.xml
+[13.235s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat//launch/preprocessor.launch.py
+[13.235s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/include
+[13.235s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/include/concat
+[13.235s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/include/concat/types.hpp
+[13.236s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/include/concat/concatenate_data_nodelet.hpp
+[13.236s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/include/filter.hpp
+[13.236s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/environment/library_path.sh
+[13.236s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/environment/library_path.dsv
+[13.273s] -- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/lib/libpointcloud_preprocessor_filter.so
+[13.280s] -- Set runtime path of "/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/lib/libpointcloud_preprocessor_filter.so" to ""
+[13.280s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/launch
+[13.280s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/launch/preprocessor.launch.xml
+[13.280s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/launch/preprocessor.launch.py
+[13.280s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/ament_index/resource_index/package_run_dependencies/concat
+[13.280s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/ament_index/resource_index/parent_prefix_path/concat
+[13.280s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/environment/ament_prefix_path.sh
+[13.280s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/environment/ament_prefix_path.dsv
+[13.280s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/environment/path.sh
+[13.280s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/environment/path.dsv
+[13.280s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/local_setup.bash
+[13.280s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/local_setup.sh
+[13.280s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/local_setup.zsh
+[13.280s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/local_setup.dsv
+[13.280s] -- Installing: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/package.dsv
+[13.296s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/ament_index/resource_index/packages/concat
+[13.296s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/ament_index/resource_index/rclcpp_components/concat
+[13.321s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/cmake/export_concatExport.cmake
+[13.322s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/cmake/export_concatExport-noconfig.cmake
+[13.322s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/cmake/ament_cmake_export_targets-extras.cmake
+[13.322s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.322s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.322s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/cmake/ament_cmake_export_libraries-extras.cmake
+[13.322s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/cmake/concatConfig.cmake
+[13.322s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/cmake/concatConfig-version.cmake
+[13.322s] -- Up-to-date: /home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/share/concat/package.xml
+[13.332s] Invoked command in '/home/skyautonet/skyautonet_ws/eee/multi_lidar/build/concat' returned '0': AMENT_PREFIX_PATH=/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib:/usr/local/cuda-11.4/lib64/:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/skyautonet/skyautonet_ws/eee/multi_lidar/build/concat

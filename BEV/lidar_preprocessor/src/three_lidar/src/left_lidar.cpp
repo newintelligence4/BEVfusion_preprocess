@@ -116,8 +116,8 @@ void LEFT_PREPROCESSING::topic_callback(const sensor_msgs::msg::PointCloud2::Sha
   //std::cerr << "Filtered: "<< cloud_ROI.width * cloud_ROI.height << " data points ("<< pcl::getFieldsList(cloud_ROI)<<")."<<std::endl;
   // output.header.frame_id = msg->header.frame_id;
   output.header.frame_id = "left_lidar_link";
-  // output.header.stamp = msg->header.stamp;
-  output.header.stamp = this->get_clock()->now();
+  output.header.stamp = msg->header.stamp;
+  // output.header.stamp = this->get_clock()->now();
   publisher_->publish(output);
 }
 

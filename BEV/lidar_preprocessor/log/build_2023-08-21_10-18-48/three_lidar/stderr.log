@@ -1,0 +1,4 @@
+[01m[K/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/src/three_lidar/src/left_lidar.cpp:[m[K In member function ‘[01m[Kvoid LEFT_PREPROCESSING::topic_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/src/three_lidar/src/left_lidar.cpp:83:19:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ktransform_1[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   83 |   Eigen::Matrix4f [01;35m[Ktransform_1[m[K = Eigen::Matrix4f::Identity();
+      |                   [01;35m[K^~~~~~~~~~~[m[K

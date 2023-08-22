@@ -1,0 +1,2 @@
+source;share/three_lidar/environment/ament_prefix_path.sh
+source;share/three_lidar/environment/path.sh

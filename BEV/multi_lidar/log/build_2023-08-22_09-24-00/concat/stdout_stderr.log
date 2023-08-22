@@ -1,0 +1,11 @@
+[ 33%] Built target concatenate_data_node
+[ 66%] Built target pointcloud_preprocessor_filter_base
+[35m[1mScanning dependencies of target pointcloud_preprocessor_filter[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/pointcloud_preprocessor_filter.dir/src/concatenate_data/concatenate_data_nodelet.cpp.o[0m
+[01m[K/home/skyautonet/skyautonet_ws/eee/multi_lidar/src/concat/src/concatenate_data/concatenate_data_nodelet.cpp:[m[K In member function ‘[01m[Kvoid pointcloud_preprocessor::PointCloudConcatenateDataSynchronizerComponent::publish()[m[K’:
+[01m[K/home/skyautonet/skyautonet_ws/eee/multi_lidar/src/concat/src/concatenate_data/concatenate_data_nodelet.cpp:311:39:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransformed_cloud_ptr[m[K’ was not declared in this scope
+  311 |     concat_cloud_ptr_->header.stamp = [01;31m[Ktransformed_cloud_ptr[m[K->header.stamp;
+      |                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/pointcloud_preprocessor_filter.dir/build.make:63: CMakeFiles/pointcloud_preprocessor_filter.dir/src/concatenate_data/concatenate_data_nodelet.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/pointcloud_preprocessor_filter.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

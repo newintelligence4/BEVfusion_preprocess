@@ -1,0 +1,28 @@
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/src/three_lidar/include/left_lidar/left_lidar_node.hpp:4[m[K,
+                 from [01m[K/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/src/three_lidar/src/left_lidar.cpp:12[m[K:
+[01m[K/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/src/three_lidar/src/left_lidar.cpp:[m[K In member function ‘[01m[Kvoid LEFT_PREPROCESSING::topic_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/src/three_lidar/src/left_lidar.cpp:121:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_loger[m[K’ was not declared in this scope; did you mean ‘[01m[Kget_logger[m[K’?
+  121 |   RCLCPP_INFO([01;31m[Kget_loger[m[K(), "(this->get_clock()->now() - now) : %f", (this->get_clock()->now() - now).nanoseconds());
+      |               [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/src/three_lidar/src/left_lidar.cpp:121:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  121 |   [01;31m[KRCLCPP_INFO[m[K(get_loger(), "(this->get_clock()->now() - now) : %f", (this->get_clock()->now() - now).nanoseconds());
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/src/three_lidar/src/left_lidar.cpp:121:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  121 |   [01;31m[KRCLCPP_INFO[m[K(get_loger(), "(this->get_clock()->now() - now) : %f", (this->get_clock()->now() - now).nanoseconds());
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/skyautonet/skyautonet_ws/eee/lidar_preprocessor/src/three_lidar/src/left_lidar.cpp:121:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  121 |   [01;31m[KRCLCPP_INFO[m[K(get_loger(), "(this->get_clock()->now() - now) : %f", (this->get_clock()->now() - now).nanoseconds());
+      |   [01;31m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/left.dir/build.make:76: CMakeFiles/left.dir/src/left_lidar.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/left.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

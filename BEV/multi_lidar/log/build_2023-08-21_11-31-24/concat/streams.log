@@ -1,0 +1,27 @@
+[0.006s] Invoking command in '/home/skyautonet/skyautonet_ws/eee/multi_lidar/build/concat': CMAKE_PREFIX_PATH=/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs:/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat:/opt/ros/foxy LD_LIBRARY_PATH=/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib:/usr/local/cuda-11.4/lib64/:/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/lib:/usr/local/cuda-11.4/lib64/:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --build /home/skyautonet/skyautonet_ws/eee/multi_lidar/build/concat -- -j20 -l20
+[0.054s] [ 33%] Built target concatenate_data_node
+[0.060s] [ 66%] Built target pointcloud_preprocessor_filter_base
+[0.069s] [35m[1mScanning dependencies of target pointcloud_preprocessor_filter[0m
+[0.093s] [ 83%] [32mBuilding CXX object CMakeFiles/pointcloud_preprocessor_filter.dir/src/concatenate_data/concatenate_data_nodelet.cpp.o[0m
+[3.035s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[3.035s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[3.035s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[3.036s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[3.036s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[3.036s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[3.036s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[3.036s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[3.036s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[3.036s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[3.036s]                  from [01m[K/opt/ros/foxy/include/diagnostic_updater/diagnostic_status_wrapper.hpp:50[m[K,
+[3.036s]                  from [01m[K/opt/ros/foxy/include/diagnostic_updater/diagnostic_updater.hpp:49[m[K,
+[3.036s]                  from [01m[K/home/skyautonet/skyautonet_ws/eee/multi_lidar/src/concat/include/concat/concatenate_data_nodelet.hpp:66[m[K,
+[3.036s]                  from [01m[K/home/skyautonet/skyautonet_ws/eee/multi_lidar/src/concat/src/concatenate_data/concatenate_data_nodelet.cpp:52[m[K:
+[3.036s] [01m[K/home/skyautonet/skyautonet_ws/eee/multi_lidar/src/concat/src/concatenate_data/concatenate_data_nodelet.cpp:[m[K In member function ‘[01m[Kvoid pointcloud_preprocessor::PointCloudConcatenateDataSynchronizerComponent::publish()[m[K’:
+[3.036s] [01m[K/home/skyautonet/skyautonet_ws/eee/multi_lidar/src/concat/src/concatenate_data/concatenate_data_nodelet.cpp:287:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const struct sensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’ {aka ‘[01m[Kconst struct sensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpoints[m[K’
+[3.036s]   287 |     RCLCPP_INFO(this->get_logger(), "Size : %f", e.second->[01;31m[Kpoints[m[K.shape[1]);
+[3.036s]       |                                                            [01;31m[K^~~~~~[m[K
+[6.293s] make[2]: *** [CMakeFiles/pointcloud_preprocessor_filter.dir/build.make:63: CMakeFiles/pointcloud_preprocessor_filter.dir/src/concatenate_data/concatenate_data_nodelet.cpp.o] Error 1
+[6.293s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/pointcloud_preprocessor_filter.dir/all] Error 2
+[6.294s] make: *** [Makefile:141: all] Error 2
+[6.295s] Invoked command in '/home/skyautonet/skyautonet_ws/eee/multi_lidar/build/concat' returned '2': CMAKE_PREFIX_PATH=/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs:/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat:/opt/ros/foxy LD_LIBRARY_PATH=/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/c_auto_vehicle_msgs/lib:/usr/local/cuda-11.4/lib64/:/home/skyautonet/skyautonet_ws/eee/multi_lidar/install/concat/lib:/usr/local/cuda-11.4/lib64/:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --build /home/skyautonet/skyautonet_ws/eee/multi_lidar/build/concat -- -j20 -l20
