@@ -1,7 +1,0 @@
-[ 33%] Built target concatenate_data_node
-[ 66%] Built target pointcloud_preprocessor_filter_base
-[35m[1mScanning dependencies of target pointcloud_preprocessor_filter[0m
-[ 83%] [32mBuilding CXX object CMakeFiles/pointcloud_preprocessor_filter.dir/src/concatenate_data/concatenate_data_nodelet.cpp.o[0m
-make[2]: *** [CMakeFiles/pointcloud_preprocessor_filter.dir/build.make:63: CMakeFiles/pointcloud_preprocessor_filter.dir/src/concatenate_data/concatenate_data_nodelet.cpp.o] Interrupt
-make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/pointcloud_preprocessor_filter.dir/all] Interrupt
-make: *** [Makefile:141: all] Interrupt

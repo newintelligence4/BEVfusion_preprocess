@@ -1,2 +1,0 @@
-/home/skyautonet/skyautonet_ws/eee/multi_lidar/build/autoware_point_types/CMakeFiles/rebuild_cache.dir
-/home/skyautonet/skyautonet_ws/eee/multi_lidar/build/autoware_point_types/CMakeFiles/edit_cache.dir

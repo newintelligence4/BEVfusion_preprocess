@@ -1,4 +1,0 @@
-source;share/velocity_msg/environment/ament_prefix_path.sh
-source;share/velocity_msg/environment/library_path.sh
-source;share/velocity_msg/environment/path.sh
-source;share/velocity_msg/environment/pythonpath.sh

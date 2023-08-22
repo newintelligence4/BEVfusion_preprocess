@@ -1,4 +1,0 @@
-source;share/concat/local_setup.bash
-source;share/concat/local_setup.dsv
-source;share/concat/local_setup.sh
-source;share/concat/local_setup.zsh
