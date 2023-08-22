@@ -51,9 +51,10 @@ Run the Concatenate Node
 ```Shell
 ros2 launch concat preprocessing.launch.py
 ```
+<img src="./imgs/graph.png" width="50%"/>
 
 ## Result
-<img src="./imgs/result.png" width="50%"/>  
+<img src="./imgs/main.png" width="50%"/>  
 <img src="./imgs/concat.png" width="50%"/>  
 
 ## Tools
