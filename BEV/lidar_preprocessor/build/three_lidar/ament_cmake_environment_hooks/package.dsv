@@ -1,4 +1,0 @@
-source;share/three_lidar/local_setup.bash
-source;share/three_lidar/local_setup.dsv
-source;share/three_lidar/local_setup.sh
-source;share/three_lidar/local_setup.zsh
