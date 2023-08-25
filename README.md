@@ -56,6 +56,7 @@ ros2 launch concat preprocessing.launch.py
 ## Result
 <img src="./imgs/main.png" width="50%"/>  
 <img src="./imgs/concat.png" width="50%"/>  
+<img src="./imgs/bevfusion.gif" />
 
 ## Tools
 - ROS2(foxy)
