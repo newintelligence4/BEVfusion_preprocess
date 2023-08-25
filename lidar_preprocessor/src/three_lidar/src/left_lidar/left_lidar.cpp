@@ -236,14 +236,14 @@ pcl::PCLPointCloud2 downsample(const pcl::PCLPointCloud2 cloud)
   vox.setLeafSize(0.15, 0.15, 0.15);
   vox.filter(*cloud_filtered); // with SOR -> *cloud_new
 
-  // int num_neigbor_points = 10;
-  // double std_multiplier = 1.0;
+  int num_neigbor_points = 10;
+  double std_multiplier = 1.0;
 
-  // pcl::StatisticalOutlierRemoval<pcl::PointXYZI> sor;
-  // sor.setInputCloud (cloud_new);
-  // sor.setMeanK (num_neigbor_points);
-  // sor.setStddevMulThresh (std_multiplier);
-  // sor.filter (*cloud_filtered); 
+  pcl::StatisticalOutlierRemoval<pcl::PointXYZI> sor;
+  sor.setInputCloud (cloud_new);
+  sor.setMeanK (num_neigbor_points);
+  sor.setStddevMulThresh (std_multiplier);
+  sor.filter (*cloud_filtered); 
 
 
   pcl::PCLPointCloud2 cloud_out;
